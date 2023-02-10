@@ -1,0 +1,1482 @@
+2022-09-13 16:59:23,972 [INFO] Activator:176 - 
+
+
+2022-09-13 16:59:23,975 [INFO] Activator:177 - !SESSION log4j initialized
+2022-09-13 17:00:25,139 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:3081->http://sw-center.st.com:80: The target server failed to respond
+2022-09-13 17:00:25,140 [INFO] RetryExec:113 - Retrying request to {}->http://localhost:3081->http://sw-center.st.com:80
+2022-09-13 17:00:26,955 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:3081->http://sw-center.st.com:80: The target server failed to respond
+2022-09-13 17:00:26,956 [INFO] RetryExec:113 - Retrying request to {}->http://localhost:3081->http://sw-center.st.com:80
+2022-09-13 17:00:38,022 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:3081->http://sw-center.st.com:80: The target server failed to respond
+2022-09-13 17:00:38,022 [INFO] RetryExec:113 - Retrying request to {}->http://localhost:3081->http://sw-center.st.com:80
+2022-09-13 17:00:46,804 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:3081->http://sw-center.st.com:80: The target server failed to respond
+2022-09-13 17:00:46,805 [INFO] RetryExec:113 - Retrying request to {}->http://localhost:3081->http://sw-center.st.com:80
+2022-09-13 17:01:10,279 [INFO] ApplicationProperties:181 - Using Application install path: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2022-09-13 17:01:10,293 [INFO] DbMcusXml:72 - Set database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2022-09-13 17:01:10,296 [INFO] DbBoardsPdsc:54 - Set plugin database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2022-09-13 17:01:10,297 [INFO] DbMcus:235 - Set plugin images path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2022-09-13 17:01:10,297 [INFO] DbBoards:232 - Set plugin images path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2022-09-13 17:01:10,387 [WARN] ApiFinderProperties:106 - C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\mcuFinder.mfd doesn't exist
+2022-09-13 17:01:10,389 [INFO] DbMcusAds:85 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:01:10,390 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:01:10,392 [INFO] DbMcusJson:61 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:01:10,392 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:01:10,393 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:01:10,405 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-09-13 17:01:10,485 [INFO] RulesReader:52 - Compatibility file has been processed (208 Rules)
+2022-09-13 17:01:10,556 [INFO] MicroXplorer:570 - Detected Java Version = 1.8.0_242
+2022-09-13 17:01:10,556 [INFO] DbMcusXml:72 - Set database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2022-09-13 17:01:10,557 [INFO] DbBoardsPdsc:54 - Set plugin database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2022-09-13 17:01:10,557 [INFO] DbMcus:235 - Set plugin images path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2022-09-13 17:01:10,557 [INFO] DbBoards:232 - Set plugin images path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2022-09-13 17:01:10,558 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:01:10,558 [INFO] DbMcusAds:85 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:01:10,558 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:01:10,558 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:01:10,558 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:01:10,558 [INFO] DbMcusJson:61 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:01:10,558 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:01:10,558 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:01:10,559 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:01:10,559 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:01:10,559 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:01:10,559 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:01:10,559 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-09-13 17:01:10,621 [INFO] MainPanel:181 - HeapMemory: 437256192
+2022-09-13 17:01:10,697 [INFO] DbMcusXml:72 - Set database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2022-09-13 17:01:10,698 [INFO] DbBoardsPdsc:54 - Set plugin database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2022-09-13 17:01:10,698 [INFO] DbMcus:235 - Set plugin images path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2022-09-13 17:01:10,698 [INFO] DbBoards:232 - Set plugin images path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2022-09-13 17:01:10,698 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:01:10,698 [INFO] DbMcusAds:85 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:01:10,699 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:01:10,699 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:01:10,699 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:01:10,699 [INFO] DbMcusJson:61 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:01:10,699 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:01:10,699 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:01:10,699 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:01:10,699 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:01:10,700 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:01:10,700 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:01:10,700 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-09-13 17:01:10,716 [INFO] ApplicationProperties:181 - Using Application install path: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2022-09-13 17:01:10,717 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=, tutovideos]
+2022-09-13 17:01:10,718 [INFO] PluginManage:292 - Check plugin analytics
+2022-09-13 17:01:10,724 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2022-09-13 17:01:10,725 [INFO] PluginManage:292 - Check plugin clock
+2022-09-13 17:01:10,734 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2022-09-13 17:01:10,734 [INFO] PluginManage:292 - Check plugin ddr
+2022-09-13 17:01:10,737 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2022-09-13 17:01:10,737 [INFO] PluginManage:292 - Check plugin filemanager
+2022-09-13 17:01:10,828 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2022-09-13 17:01:10,828 [INFO] PluginManage:292 - Check plugin ipmanager
+2022-09-13 17:01:10,835 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2022-09-13 17:01:10,835 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2022-09-13 17:01:10,844 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2022-09-13 17:01:10,844 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2022-09-13 17:01:10,867 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2022-09-13 17:01:10,867 [INFO] PluginManage:292 - Check plugin power
+2022-09-13 17:01:10,877 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2022-09-13 17:01:10,877 [INFO] PluginManage:292 - Check plugin projectmanager
+2022-09-13 17:01:10,889 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2022-09-13 17:01:10,889 [INFO] PluginManage:292 - Check plugin thirdparty
+2022-09-13 17:01:10,907 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/AxiDo/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 0 ms. number of Sw pack : 0
+2022-09-13 17:01:10,912 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2022-09-13 17:01:10,912 [INFO] PluginManage:292 - Check plugin tools
+2022-09-13 17:01:10,914 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2022-09-13 17:01:10,914 [INFO] PluginManage:292 - Check plugin tutovideos
+2022-09-13 17:01:10,915 [INFO] PluginManage:347 - Ignore plugin tutovideos (category:base)
+2022-09-13 17:01:10,915 [INFO] PluginManage:292 - Check plugin updater
+2022-09-13 17:01:10,924 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2022-09-13 17:01:10,925 [INFO] PluginManage:265 - PluginManage : Loaded plugins [12]
+2022-09-13 17:01:11,047 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2022-09-13 17:01:11,131 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,131 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2022-09-13 17:01:11,133 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,133 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2022-09-13 17:01:11,135 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,135 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2022-09-13 17:01:11,136 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,136 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2022-09-13 17:01:11,138 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,138 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2022-09-13 17:01:11,140 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,140 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2022-09-13 17:01:11,145 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,146 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2022-09-13 17:01:11,147 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,147 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2022-09-13 17:01:11,150 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,150 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2022-09-13 17:01:11,156 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,156 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2022-09-13 17:01:11,157 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,158 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2022-09-13 17:01:11,159 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,159 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2022-09-13 17:01:11,163 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,163 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2022-09-13 17:01:11,166 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,167 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2022-09-13 17:01:11,168 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,169 [INFO] PluginManager:200 - loadIPPluginJar : add gtzc
+2022-09-13 17:01:11,170 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,170 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2022-09-13 17:01:11,173 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,173 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2022-09-13 17:01:11,175 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,175 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2022-09-13 17:01:11,177 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,177 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2022-09-13 17:01:11,179 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,179 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2022-09-13 17:01:11,182 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,182 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2022-09-13 17:01:11,184 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,185 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2022-09-13 17:01:11,187 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,187 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2022-09-13 17:01:11,189 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,189 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2022-09-13 17:01:11,195 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,197 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2022-09-13 17:01:11,198 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,198 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2022-09-13 17:01:11,202 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,202 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2022-09-13 17:01:11,204 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,204 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2022-09-13 17:01:11,206 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,206 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2022-09-13 17:01:11,209 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,209 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2022-09-13 17:01:11,211 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,211 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2022-09-13 17:01:11,213 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,214 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2022-09-13 17:01:11,215 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,215 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2022-09-13 17:01:11,217 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,217 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2022-09-13 17:01:11,218 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,219 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2022-09-13 17:01:11,220 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,220 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2022-09-13 17:01:11,223 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:01:11,223 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2022-09-13 17:01:11,892 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2022-09-13 17:01:11,892 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: null
+2022-09-13 17:01:12,094 [FATAL] Updater:277 - Updater called before beeing initialized
+2022-09-13 17:01:12,243 [FATAL] Updater:277 - Updater called before beeing initialized
+2022-09-13 17:01:12,245 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2022-09-13 17:01:12,246 [FATAL] Updater:277 - Updater called before beeing initialized
+2022-09-13 17:01:12,249 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2022-09-13 17:01:12,249 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin
+2022-09-13 17:01:12,254 [INFO] ProgrammerExecThread:148 - [ProgrammerAPI] CubeProgrammer command construction: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin\STM32_Programmer_CLI.exe -l
+2022-09-13 17:01:12,473 [INFO] MainDdrPanel:93 - [DDR PANEL] SETTER - Set cubeProgrammerPath to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin
+2022-09-13 17:01:12,491 [INFO] Updater:886 - Updater Version found : 5.6.0
+2022-09-13 17:01:12,529 [INFO] ApplicationProperties:181 - Using Application install path: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2022-09-13 17:01:12,549 [INFO] MainUpdater:452 - Copy updater definitions from MX database
+2022-09-13 17:01:12,563 [INFO] MainUpdater:485 - Copy flag file definitions from MX database
+2022-09-13 17:01:12,565 [INFO] MainUpdater:501 - Copy thirdparty index definitions from MX database
+2022-09-13 17:01:12,566 [INFO] MainUpdater:520 - Copy default thirdparty db definitions from MX database
+2022-09-13 17:01:12,618 [INFO] MainUpdater:2230 - connection check result : 10
+2022-09-13 17:01:12,618 [INFO] MainUpdater:2874 - Updater definition file requires update
+2022-09-13 17:01:12,619 [INFO] MainUpdater:236 - Updater Check For Update Now.
+2022-09-13 17:01:12,619 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2022-09-13 17:01:12,625 [INFO] MainUpdater:2230 - connection check result : 10
+2022-09-13 17:01:12,627 [INFO] MainUpdater:580 - Updater currently busy
+2022-09-13 17:01:13,178 [INFO] ServerAccessManage:348 - Download File updaters.zip
+2022-09-13 17:01:13,219 [INFO] FileExtend:225 - Unzip File : updaters.zip
+2022-09-13 17:01:13,219 [INFO] FileExtend:240 - Standard Zip Deflate
+2022-09-13 17:01:13,926 [WARN] MainUpdater:1073 - Updater busy. Cannot search thirdparties
+2022-09-13 17:01:13,990 [INFO] ServerAccessManage:348 - Download File PacksControlFlags.xml
+2022-09-13 17:01:14,198 [INFO] ServerAccessManage:348 - Download File cubemx.pidx
+2022-09-13 17:01:14,266 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.FP-ATR-ASTRA1.pdsc
+2022-09-13 17:01:14,288 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {tls}->http://localhost:3081->https://download.eclipse.org:443: The target server failed to respond
+2022-09-13 17:01:14,288 [INFO] RetryExec:113 - Retrying request to {tls}->http://localhost:3081->https://download.eclipse.org:443
+2022-09-13 17:01:14,566 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-AI.pdsc
+2022-09-13 17:01:15,328 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {tls}->http://localhost:3081->https://archive.eclipse.org:443: The target server failed to respond
+2022-09-13 17:01:15,328 [INFO] RetryExec:113 - Retrying request to {tls}->http://localhost:3081->https://archive.eclipse.org:443
+2022-09-13 17:01:15,596 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-ALS.pdsc
+2022-09-13 17:01:16,343 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-BLE1.pdsc
+2022-09-13 17:01:16,431 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {tls}->http://localhost:3081->https://download.eclipse.org:443: The target server failed to respond
+2022-09-13 17:01:16,431 [INFO] RetryExec:113 - Retrying request to {tls}->http://localhost:3081->https://download.eclipse.org:443
+2022-09-13 17:01:16,935 [WARN] MainUpdater:1073 - Updater busy. Cannot search thirdparties
+2022-09-13 17:01:17,530 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {tls}->http://localhost:3081->https://archive.eclipse.org:443: The target server failed to respond
+2022-09-13 17:01:17,530 [INFO] RetryExec:113 - Retrying request to {tls}->http://localhost:3081->https://archive.eclipse.org:443
+2022-09-13 17:01:18,490 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2022-09-13 17:01:18,741 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-BLE2.pdsc
+2022-09-13 17:01:19,143 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {tls}->http://localhost:3081->https://download.eclipse.org:443: The target server failed to respond
+2022-09-13 17:01:19,143 [INFO] RetryExec:113 - Retrying request to {tls}->http://localhost:3081->https://download.eclipse.org:443
+2022-09-13 17:01:19,522 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-BLEMGR.pdsc
+2022-09-13 17:01:19,944 [WARN] MainUpdater:1073 - Updater busy. Cannot search thirdparties
+2022-09-13 17:01:20,107 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-DISPLAY.pdsc
+2022-09-13 17:01:20,448 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-EEPRMA1.pdsc
+2022-09-13 17:01:20,691 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-GNSS1.pdsc
+2022-09-13 17:01:21,532 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2022-09-13 17:01:22,104 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2022-09-13 17:01:22,638 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2022-09-13 17:01:22,953 [WARN] MainUpdater:1073 - Updater busy. Cannot search thirdparties
+2022-09-13 17:01:23,138 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2022-09-13 17:01:23,667 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2022-09-13 17:01:24,130 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2022-09-13 17:01:24,140 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-ISPU.pdsc
+2022-09-13 17:01:24,162 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-MEMS1.pdsc
+2022-09-13 17:01:25,961 [WARN] MainUpdater:1073 - Updater busy. Cannot search thirdparties
+2022-09-13 17:01:26,068 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-NFC4.pdsc
+2022-09-13 17:01:28,696 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-NFC7.pdsc
+2022-09-13 17:01:28,972 [WARN] MainUpdater:1073 - Updater busy. Cannot search thirdparties
+2022-09-13 17:01:29,231 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-SFXS2LP1.pdsc
+2022-09-13 17:01:29,475 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-SUBG2.pdsc
+2022-09-13 17:01:30,797 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-TOF1.pdsc
+2022-09-13 17:01:31,298 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2022-09-13 17:01:31,315 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-TOUCHGFX.pdsc
+2022-09-13 17:01:31,697 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-ALGOBUILD.pdsc
+2022-09-13 17:01:31,983 [WARN] MainUpdater:1073 - Updater busy. Cannot search thirdparties
+2022-09-13 17:01:32,455 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-AZRTOS-H7.pdsc
+2022-09-13 17:01:32,802 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-AZRTOS-F4.pdsc
+2022-09-13 17:01:32,878 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-AZRTOS-F7.pdsc
+2022-09-13 17:01:33,534 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-AZRTOS-L4.pdsc
+2022-09-13 17:01:33,590 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-AZRTOS-L5.pdsc
+2022-09-13 17:01:33,897 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-AZRTOS-G0.pdsc
+2022-09-13 17:01:33,962 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-AZRTOS-G4.pdsc
+2022-09-13 17:01:34,356 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-AZRTOS-WL.pdsc
+2022-09-13 17:01:34,993 [WARN] MainUpdater:1073 - Updater busy. Cannot search thirdparties
+2022-09-13 17:01:36,762 [INFO] ServerAccessManage:348 - Download File wolfSSL.I-CUBE-wolfSSL.pdsc
+2022-09-13 17:01:38,004 [WARN] MainUpdater:1073 - Updater busy. Cannot search thirdparties
+2022-09-13 17:01:41,011 [WARN] MainUpdater:1073 - Updater busy. Cannot search thirdparties
+2022-09-13 17:01:44,026 [WARN] MainUpdater:1073 - Updater busy. Cannot search thirdparties
+2022-09-13 17:01:47,036 [WARN] MainUpdater:1073 - Updater busy. Cannot search thirdparties
+2022-09-13 17:01:50,047 [WARN] MainUpdater:1073 - Updater busy. Cannot search thirdparties
+2022-09-13 17:01:53,058 [WARN] MainUpdater:1073 - Updater busy. Cannot search thirdparties
+2022-09-13 17:01:56,067 [WARN] MainUpdater:1073 - Updater busy. Cannot search thirdparties
+2022-09-13 17:01:59,076 [ERROR] IntegrityCheckThread:100 - Unexpected exception IntegrityCheckThread Thread: Updater error
+2022-09-13 17:01:59,077 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (C:/Users/AxiDo/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2022-09-13 17:02:00,384 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:3081->http://sw-center.st.com:80: The target server failed to respond
+2022-09-13 17:02:00,384 [INFO] RetryExec:113 - Retrying request to {}->http://localhost:3081->http://sw-center.st.com:80
+2022-09-13 17:02:09,158 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:3081->http://sw-center.st.com:80: The target server failed to respond
+2022-09-13 17:02:09,158 [INFO] RetryExec:113 - Retrying request to {}->http://localhost:3081->http://sw-center.st.com:80
+2022-09-13 17:02:30,356 [WARN] ServerAccessManage:1026 - Warning during Server Connexion :  timeout Read timed out
+2022-09-13 17:03:16,876 [WARN] ServerAccessManage:1026 - Warning during Server Connexion :  timeout Read timed out
+2022-09-13 17:03:23,889 [INFO] MainUpdater:2230 - connection check result : 10
+2022-09-13 17:03:23,889 [INFO] MainUpdater:580 - Updater currently busy
+2022-09-13 17:03:37,943 [ERROR] ServerAccessManage:1030 - Problem during Server Connexion :  IO error Connection timed out: connect
+2022-09-13 17:03:37,944 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] java.net.ConnectException: Connection timed out: connect
+2022-09-13 17:03:37,944 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+2022-09-13 17:03:37,946 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+2022-09-13 17:03:37,948 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+2022-09-13 17:03:37,950 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+2022-09-13 17:03:37,952 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+2022-09-13 17:03:37,953 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+2022-09-13 17:03:37,954 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+2022-09-13 17:03:37,955 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.Socket.connect(Socket.java:607)
+2022-09-13 17:03:37,956 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+2022-09-13 17:03:37,957 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+2022-09-13 17:03:37,959 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+2022-09-13 17:03:37,959 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+2022-09-13 17:03:37,960 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+2022-09-13 17:03:37,961 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+2022-09-13 17:03:37,963 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+2022-09-13 17:03:37,964 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+2022-09-13 17:03:37,965 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+2022-09-13 17:03:37,967 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+2022-09-13 17:03:37,968 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1570)
+2022-09-13 17:03:37,969 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+2022-09-13 17:03:37,970 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+2022-09-13 17:03:37,971 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.ServerAccessManage.openHttpConnexion(ServerAccessManage.java:891)
+2022-09-13 17:03:37,973 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.ServerAccessManage.getHttpFileSize(ServerAccessManage.java:571)
+2022-09-13 17:03:37,975 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.addUpdaterFile(LoadServerUpdatesThread.java:1208)
+2022-09-13 17:03:37,978 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.processPackIndexEntries(LoadServerUpdatesThread.java:1032)
+2022-09-13 17:03:37,980 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.processThirdPartyUpdaterIndexUrls(LoadServerUpdatesThread.java:976)
+2022-09-13 17:03:37,981 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.processThirdParties(LoadServerUpdatesThread.java:741)
+2022-09-13 17:03:37,983 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.performFullUpdate(LoadServerUpdatesThread.java:357)
+2022-09-13 17:03:37,984 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.run(LoadServerUpdatesThread.java:249)
+2022-09-13 17:03:40,633 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:3081->http://sw-center.st.com:80: The target server failed to respond
+2022-09-13 17:03:40,633 [INFO] RetryExec:113 - Retrying request to {}->http://localhost:3081->http://sw-center.st.com:80
+2022-09-13 17:03:57,216 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {tls}->http://localhost:3081->https://download.eclipse.org:443: The target server failed to respond
+2022-09-13 17:03:57,217 [INFO] RetryExec:113 - Retrying request to {tls}->http://localhost:3081->https://download.eclipse.org:443
+2022-09-13 17:03:58,254 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {tls}->http://localhost:3081->https://archive.eclipse.org:443: The target server failed to respond
+2022-09-13 17:03:58,254 [INFO] RetryExec:113 - Retrying request to {tls}->http://localhost:3081->https://archive.eclipse.org:443
+2022-09-13 17:03:59,041 [ERROR] ServerAccessManage:1030 - Problem during Server Connexion :  IO error Connection timed out: connect
+2022-09-13 17:03:59,043 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] java.net.ConnectException: Connection timed out: connect
+2022-09-13 17:03:59,045 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+2022-09-13 17:03:59,047 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+2022-09-13 17:03:59,049 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+2022-09-13 17:03:59,052 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+2022-09-13 17:03:59,054 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+2022-09-13 17:03:59,056 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+2022-09-13 17:03:59,057 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+2022-09-13 17:03:59,059 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.Socket.connect(Socket.java:607)
+2022-09-13 17:03:59,060 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+2022-09-13 17:03:59,061 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+2022-09-13 17:03:59,062 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+2022-09-13 17:03:59,063 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+2022-09-13 17:03:59,064 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+2022-09-13 17:03:59,065 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+2022-09-13 17:03:59,066 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+2022-09-13 17:03:59,067 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+2022-09-13 17:03:59,068 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+2022-09-13 17:03:59,069 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+2022-09-13 17:03:59,070 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1570)
+2022-09-13 17:03:59,072 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+2022-09-13 17:03:59,073 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+2022-09-13 17:03:59,074 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.ServerAccessManage.openHttpConnexion(ServerAccessManage.java:891)
+2022-09-13 17:03:59,076 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.ServerAccessManage.getHttpFileSize(ServerAccessManage.java:571)
+2022-09-13 17:03:59,077 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.addUpdaterFile(LoadServerUpdatesThread.java:1208)
+2022-09-13 17:03:59,079 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.processPackIndexEntries(LoadServerUpdatesThread.java:1032)
+2022-09-13 17:03:59,080 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.processThirdPartyUpdaterIndexUrls(LoadServerUpdatesThread.java:976)
+2022-09-13 17:03:59,082 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.processThirdParties(LoadServerUpdatesThread.java:741)
+2022-09-13 17:03:59,083 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.performFullUpdate(LoadServerUpdatesThread.java:357)
+2022-09-13 17:03:59,085 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.run(LoadServerUpdatesThread.java:249)
+2022-09-13 17:04:20,149 [ERROR] ServerAccessManage:1030 - Problem during Server Connexion :  IO error Connection timed out: connect
+2022-09-13 17:04:20,150 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] java.net.ConnectException: Connection timed out: connect
+2022-09-13 17:04:20,151 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+2022-09-13 17:04:20,152 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+2022-09-13 17:04:20,154 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+2022-09-13 17:04:20,155 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+2022-09-13 17:04:20,156 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+2022-09-13 17:04:20,157 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+2022-09-13 17:04:20,158 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+2022-09-13 17:04:20,158 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.Socket.connect(Socket.java:607)
+2022-09-13 17:04:20,159 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+2022-09-13 17:04:20,160 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+2022-09-13 17:04:20,161 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+2022-09-13 17:04:20,162 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+2022-09-13 17:04:20,163 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+2022-09-13 17:04:20,164 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+2022-09-13 17:04:20,165 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+2022-09-13 17:04:20,166 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+2022-09-13 17:04:20,168 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+2022-09-13 17:04:20,169 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+2022-09-13 17:04:20,170 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1570)
+2022-09-13 17:04:20,171 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+2022-09-13 17:04:20,172 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+2022-09-13 17:04:20,173 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.ServerAccessManage.openHttpConnexion(ServerAccessManage.java:891)
+2022-09-13 17:04:20,174 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.ServerAccessManage.getHttpFileSize(ServerAccessManage.java:571)
+2022-09-13 17:04:20,176 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.addUpdaterFile(LoadServerUpdatesThread.java:1208)
+2022-09-13 17:04:20,178 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.processPackIndexEntries(LoadServerUpdatesThread.java:1032)
+2022-09-13 17:04:20,180 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.processThirdPartyUpdaterIndexUrls(LoadServerUpdatesThread.java:976)
+2022-09-13 17:04:20,181 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.processThirdParties(LoadServerUpdatesThread.java:741)
+2022-09-13 17:04:20,183 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.performFullUpdate(LoadServerUpdatesThread.java:357)
+2022-09-13 17:04:20,184 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.run(LoadServerUpdatesThread.java:249)
+2022-09-13 17:04:41,237 [ERROR] ServerAccessManage:1030 - Problem during Server Connexion :  IO error Connection timed out: connect
+2022-09-13 17:04:41,238 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] java.net.ConnectException: Connection timed out: connect
+2022-09-13 17:04:41,239 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+2022-09-13 17:04:41,240 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+2022-09-13 17:04:41,241 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+2022-09-13 17:04:41,242 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+2022-09-13 17:04:41,243 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+2022-09-13 17:04:41,244 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+2022-09-13 17:04:41,244 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+2022-09-13 17:04:41,245 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.Socket.connect(Socket.java:607)
+2022-09-13 17:04:41,246 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+2022-09-13 17:04:41,247 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+2022-09-13 17:04:41,248 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+2022-09-13 17:04:41,248 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+2022-09-13 17:04:41,249 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+2022-09-13 17:04:41,250 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+2022-09-13 17:04:41,251 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+2022-09-13 17:04:41,252 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+2022-09-13 17:04:41,253 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+2022-09-13 17:04:41,255 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+2022-09-13 17:04:41,256 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1570)
+2022-09-13 17:04:41,257 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+2022-09-13 17:04:41,258 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+2022-09-13 17:04:41,259 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.ServerAccessManage.openHttpConnexion(ServerAccessManage.java:891)
+2022-09-13 17:04:41,260 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.ServerAccessManage.getHttpFileSize(ServerAccessManage.java:571)
+2022-09-13 17:04:41,262 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.addUpdaterFile(LoadServerUpdatesThread.java:1208)
+2022-09-13 17:04:41,263 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.processPackIndexEntries(LoadServerUpdatesThread.java:1032)
+2022-09-13 17:04:41,265 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.processThirdPartyUpdaterIndexUrls(LoadServerUpdatesThread.java:976)
+2022-09-13 17:04:41,266 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.processThirdParties(LoadServerUpdatesThread.java:741)
+2022-09-13 17:04:41,268 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.performFullUpdate(LoadServerUpdatesThread.java:357)
+2022-09-13 17:04:41,269 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.run(LoadServerUpdatesThread.java:249)
+2022-09-13 17:04:44,530 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:3081->http://sw-center.st.com:80: The target server failed to respond
+2022-09-13 17:04:44,530 [INFO] RetryExec:113 - Retrying request to {}->http://localhost:3081->http://sw-center.st.com:80
+2022-09-13 17:04:49,846 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:3081->http://sw-center.st.com:80: The target server failed to respond
+2022-09-13 17:04:49,846 [INFO] RetryExec:113 - Retrying request to {}->http://localhost:3081->http://sw-center.st.com:80
+2022-09-13 17:05:02,335 [ERROR] ServerAccessManage:1030 - Problem during Server Connexion :  IO error Connection timed out: connect
+2022-09-13 17:05:02,336 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] java.net.ConnectException: Connection timed out: connect
+2022-09-13 17:05:02,337 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+2022-09-13 17:05:02,338 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+2022-09-13 17:05:02,339 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+2022-09-13 17:05:02,340 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+2022-09-13 17:05:02,341 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+2022-09-13 17:05:02,342 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+2022-09-13 17:05:02,343 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+2022-09-13 17:05:02,344 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.Socket.connect(Socket.java:607)
+2022-09-13 17:05:02,344 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+2022-09-13 17:05:02,345 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+2022-09-13 17:05:02,346 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+2022-09-13 17:05:02,347 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+2022-09-13 17:05:02,348 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+2022-09-13 17:05:02,349 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+2022-09-13 17:05:02,350 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+2022-09-13 17:05:02,351 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+2022-09-13 17:05:02,352 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+2022-09-13 17:05:02,354 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+2022-09-13 17:05:02,355 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1570)
+2022-09-13 17:05:02,356 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+2022-09-13 17:05:02,357 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+2022-09-13 17:05:02,358 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.ServerAccessManage.openHttpConnexion(ServerAccessManage.java:891)
+2022-09-13 17:05:02,360 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.ServerAccessManage.getHttpFileSize(ServerAccessManage.java:571)
+2022-09-13 17:05:02,362 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.addUpdaterFile(LoadServerUpdatesThread.java:1208)
+2022-09-13 17:05:02,363 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.processPackIndexEntries(LoadServerUpdatesThread.java:1032)
+2022-09-13 17:05:02,365 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.processThirdPartyUpdaterIndexUrls(LoadServerUpdatesThread.java:976)
+2022-09-13 17:05:02,367 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.processThirdParties(LoadServerUpdatesThread.java:741)
+2022-09-13 17:05:02,368 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.performFullUpdate(LoadServerUpdatesThread.java:357)
+2022-09-13 17:05:02,369 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.run(LoadServerUpdatesThread.java:249)
+2022-09-13 17:05:23,417 [ERROR] ServerAccessManage:1030 - Problem during Server Connexion :  IO error Connection timed out: connect
+2022-09-13 17:05:23,418 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] java.net.ConnectException: Connection timed out: connect
+2022-09-13 17:05:23,419 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+2022-09-13 17:05:23,420 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+2022-09-13 17:05:23,421 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+2022-09-13 17:05:23,423 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+2022-09-13 17:05:23,424 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+2022-09-13 17:05:23,424 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+2022-09-13 17:05:23,425 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+2022-09-13 17:05:23,426 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.Socket.connect(Socket.java:607)
+2022-09-13 17:05:23,427 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+2022-09-13 17:05:23,427 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+2022-09-13 17:05:23,428 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+2022-09-13 17:05:23,429 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+2022-09-13 17:05:23,430 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+2022-09-13 17:05:23,431 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+2022-09-13 17:05:23,432 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+2022-09-13 17:05:23,433 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+2022-09-13 17:05:23,434 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+2022-09-13 17:05:23,435 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+2022-09-13 17:05:23,436 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1570)
+2022-09-13 17:05:23,437 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+2022-09-13 17:05:23,438 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+2022-09-13 17:05:23,440 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.ServerAccessManage.openHttpConnexion(ServerAccessManage.java:891)
+2022-09-13 17:05:23,441 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.ServerAccessManage.getHttpFileSize(ServerAccessManage.java:571)
+2022-09-13 17:05:23,442 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.addUpdaterFile(LoadServerUpdatesThread.java:1208)
+2022-09-13 17:05:23,444 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.processPackIndexEntries(LoadServerUpdatesThread.java:1032)
+2022-09-13 17:05:23,446 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.processThirdPartyUpdaterIndexUrls(LoadServerUpdatesThread.java:976)
+2022-09-13 17:05:23,447 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.processThirdParties(LoadServerUpdatesThread.java:741)
+2022-09-13 17:05:23,449 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.performFullUpdate(LoadServerUpdatesThread.java:357)
+2022-09-13 17:05:23,450 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.run(LoadServerUpdatesThread.java:249)
+2022-09-13 17:05:40,945 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2022-09-13 17:05:42,257 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2022-09-13 17:05:43,456 [INFO] ServerAccessManage:348 - Download File RoweBots.I-CUBE-UNISONRTOS.pdsc
+2022-09-13 17:05:46,937 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2022-09-13 17:05:48,548 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2022-09-13 17:05:50,142 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2022-09-13 17:05:51,807 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2022-09-13 17:05:52,755 [INFO] ServerAccessManage:348 - Download File SEGGER.I-CUBE-embOS.pdsc
+2022-09-13 17:06:00,435 [INFO] Activator:176 - 
+
+
+2022-09-13 17:06:00,437 [INFO] Activator:177 - !SESSION log4j initialized
+2022-09-13 17:06:31,499 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:3081->http://sw-center.st.com:80: The target server failed to respond
+2022-09-13 17:06:31,502 [INFO] RetryExec:113 - Retrying request to {}->http://localhost:3081->http://sw-center.st.com:80
+2022-09-13 17:10:18,142 [INFO] ApplicationProperties:181 - Using Application install path: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2022-09-13 17:10:18,151 [INFO] DbMcusXml:72 - Set database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2022-09-13 17:10:18,154 [INFO] DbBoardsPdsc:54 - Set plugin database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2022-09-13 17:10:18,154 [INFO] DbMcus:235 - Set plugin images path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2022-09-13 17:10:18,154 [INFO] DbBoards:232 - Set plugin images path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2022-09-13 17:10:18,158 [INFO] DbMcusAds:85 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:10:18,158 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:10:18,160 [INFO] DbMcusJson:61 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:10:18,161 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:10:18,161 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:10:18,167 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-09-13 17:10:18,232 [INFO] RulesReader:52 - Compatibility file has been processed (208 Rules)
+2022-09-13 17:10:18,284 [INFO] MicroXplorer:570 - Detected Java Version = 1.8.0_242
+2022-09-13 17:10:18,284 [INFO] DbMcusXml:72 - Set database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2022-09-13 17:10:18,284 [INFO] DbBoardsPdsc:54 - Set plugin database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2022-09-13 17:10:18,285 [INFO] DbMcus:235 - Set plugin images path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2022-09-13 17:10:18,285 [INFO] DbBoards:232 - Set plugin images path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2022-09-13 17:10:18,285 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:10:18,286 [INFO] DbMcusAds:85 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:10:18,286 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:10:18,286 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:10:18,286 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:10:18,286 [INFO] DbMcusJson:61 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:10:18,286 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:10:18,286 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:10:18,286 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:10:18,287 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:10:18,287 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:10:18,287 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:10:18,287 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-09-13 17:10:18,329 [INFO] MainPanel:181 - HeapMemory: 357564416
+2022-09-13 17:10:18,371 [INFO] DbMcusXml:72 - Set database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2022-09-13 17:10:18,371 [INFO] DbBoardsPdsc:54 - Set plugin database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2022-09-13 17:10:18,371 [INFO] DbMcus:235 - Set plugin images path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2022-09-13 17:10:18,371 [INFO] DbBoards:232 - Set plugin images path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2022-09-13 17:10:18,372 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:10:18,372 [INFO] DbMcusAds:85 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:10:18,372 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:10:18,372 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:10:18,372 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:10:18,372 [INFO] DbMcusJson:61 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:10:18,372 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:10:18,372 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:10:18,373 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:10:18,373 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:10:18,373 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:10:18,373 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:10:18,373 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-09-13 17:10:18,385 [INFO] ApplicationProperties:181 - Using Application install path: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2022-09-13 17:10:18,386 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=, tutovideos]
+2022-09-13 17:10:18,387 [INFO] PluginManage:292 - Check plugin analytics
+2022-09-13 17:10:18,390 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2022-09-13 17:10:18,391 [INFO] PluginManage:292 - Check plugin clock
+2022-09-13 17:10:18,397 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2022-09-13 17:10:18,397 [INFO] PluginManage:292 - Check plugin ddr
+2022-09-13 17:10:18,399 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2022-09-13 17:10:18,399 [INFO] PluginManage:292 - Check plugin filemanager
+2022-09-13 17:10:18,483 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2022-09-13 17:10:18,484 [INFO] PluginManage:292 - Check plugin ipmanager
+2022-09-13 17:10:18,493 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2022-09-13 17:10:18,493 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2022-09-13 17:10:18,499 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2022-09-13 17:10:18,500 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2022-09-13 17:10:18,518 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2022-09-13 17:10:18,519 [INFO] PluginManage:292 - Check plugin power
+2022-09-13 17:10:18,525 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2022-09-13 17:10:18,525 [INFO] PluginManage:292 - Check plugin projectmanager
+2022-09-13 17:10:18,537 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2022-09-13 17:10:18,537 [INFO] PluginManage:292 - Check plugin thirdparty
+2022-09-13 17:10:18,550 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/AxiDo/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 0 ms. number of Sw pack : 0
+2022-09-13 17:10:18,555 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2022-09-13 17:10:18,555 [INFO] PluginManage:292 - Check plugin tools
+2022-09-13 17:10:18,557 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2022-09-13 17:10:18,557 [INFO] PluginManage:292 - Check plugin tutovideos
+2022-09-13 17:10:18,557 [INFO] PluginManage:347 - Ignore plugin tutovideos (category:base)
+2022-09-13 17:10:18,557 [INFO] PluginManage:292 - Check plugin updater
+2022-09-13 17:10:18,565 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2022-09-13 17:10:18,566 [INFO] PluginManage:265 - PluginManage : Loaded plugins [12]
+2022-09-13 17:10:18,685 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2022-09-13 17:10:18,759 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,760 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2022-09-13 17:10:18,761 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,761 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2022-09-13 17:10:18,763 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,763 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2022-09-13 17:10:18,764 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,764 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2022-09-13 17:10:18,766 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,766 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2022-09-13 17:10:18,768 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,768 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2022-09-13 17:10:18,772 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,772 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2022-09-13 17:10:18,774 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,774 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2022-09-13 17:10:18,777 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,777 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2022-09-13 17:10:18,781 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,781 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2022-09-13 17:10:18,783 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,783 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2022-09-13 17:10:18,784 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,784 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2022-09-13 17:10:18,788 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,788 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2022-09-13 17:10:18,790 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,791 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2022-09-13 17:10:18,792 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,792 [INFO] PluginManager:200 - loadIPPluginJar : add gtzc
+2022-09-13 17:10:18,794 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,794 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2022-09-13 17:10:18,795 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,795 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2022-09-13 17:10:18,797 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,797 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2022-09-13 17:10:18,799 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,799 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2022-09-13 17:10:18,800 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,800 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2022-09-13 17:10:18,808 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,808 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2022-09-13 17:10:18,810 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,810 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2022-09-13 17:10:18,812 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,812 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2022-09-13 17:10:18,813 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,813 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2022-09-13 17:10:18,817 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,819 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2022-09-13 17:10:18,820 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,821 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2022-09-13 17:10:18,822 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,823 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2022-09-13 17:10:18,824 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,824 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2022-09-13 17:10:18,826 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,826 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2022-09-13 17:10:18,828 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,828 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2022-09-13 17:10:18,829 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,829 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2022-09-13 17:10:18,831 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,831 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2022-09-13 17:10:18,832 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,833 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2022-09-13 17:10:18,834 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,834 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2022-09-13 17:10:18,835 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,835 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2022-09-13 17:10:18,836 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,836 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2022-09-13 17:10:18,838 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:10:18,838 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2022-09-13 17:10:19,446 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2022-09-13 17:10:19,447 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: null
+2022-09-13 17:10:19,596 [FATAL] Updater:277 - Updater called before beeing initialized
+2022-09-13 17:10:19,711 [FATAL] Updater:277 - Updater called before beeing initialized
+2022-09-13 17:10:19,713 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2022-09-13 17:10:19,713 [FATAL] Updater:277 - Updater called before beeing initialized
+2022-09-13 17:10:19,716 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2022-09-13 17:10:19,716 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin
+2022-09-13 17:10:19,720 [INFO] ProgrammerExecThread:148 - [ProgrammerAPI] CubeProgrammer command construction: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin\STM32_Programmer_CLI.exe -l
+2022-09-13 17:10:19,821 [INFO] MainDdrPanel:93 - [DDR PANEL] SETTER - Set cubeProgrammerPath to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin
+2022-09-13 17:10:19,829 [INFO] Updater:886 - Updater Version found : 5.6.0
+2022-09-13 17:10:19,845 [INFO] ApplicationProperties:181 - Using Application install path: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2022-09-13 17:10:20,208 [INFO] MainUpdater:2230 - connection check result : 10
+2022-09-13 17:10:20,208 [INFO] MainUpdater:2874 - Updater definition file requires update
+2022-09-13 17:10:20,209 [INFO] MainUpdater:236 - Updater Check For Update Now.
+2022-09-13 17:10:20,209 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2022-09-13 17:10:20,214 [INFO] MainUpdater:2230 - connection check result : 10
+2022-09-13 17:10:20,215 [INFO] MainUpdater:580 - Updater currently busy
+2022-09-13 17:10:20,223 [INFO] ServerAccessManage:348 - Download File updaters.zip
+2022-09-13 17:10:20,273 [INFO] FileExtend:225 - Unzip File : updaters.zip
+2022-09-13 17:10:20,273 [INFO] FileExtend:240 - Standard Zip Deflate
+2022-09-13 17:10:20,552 [INFO] ServerAccessManage:348 - Download File PacksControlFlags.xml
+2022-09-13 17:10:20,578 [INFO] ServerAccessManage:348 - Download File cubemx.pidx
+2022-09-13 17:10:20,631 [INFO] LoadServerUpdatesThread:301 - End of LoadServerUpdate Thread
+2022-09-13 17:10:20,659 [INFO] CheckServerUpdateThread:92 - End of CheckServer Thread
+2022-09-13 17:10:21,579 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (C:/Users/AxiDo/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2022-09-13 17:10:21,583 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/AxiDo/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 1 ms. number of Sw pack : 1
+2022-09-13 17:10:21,583 [INFO] Engine:366 - softwarePackList size : 1
+2022-09-13 17:10:21,587 [INFO] Engine:382 - compute dependency for SwPack FreeRTOS have been done, no update is requested
+2022-09-13 17:10:21,595 [WARN] ModelIntegratedPack:50 - Cannot find a middleware corresponding to integrated pack FreeRTOS
+2022-09-13 17:10:21,595 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (C:/Users/AxiDo/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2022-09-13 17:10:21,597 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/AxiDo/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 0 ms. number of Sw pack : 1
+2022-09-13 17:10:21,597 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (C:/Users/AxiDo/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2022-09-13 17:10:21,598 [INFO] IntegrityCheckThread:98 - End integrity checks thread
+2022-09-13 17:10:46,094 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {tls}->http://localhost:3081->https://download.eclipse.org:443: The target server failed to respond
+2022-09-13 17:10:46,095 [INFO] RetryExec:113 - Retrying request to {tls}->http://localhost:3081->https://download.eclipse.org:443
+2022-09-13 17:10:47,248 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {tls}->http://localhost:3081->https://archive.eclipse.org:443: The target server failed to respond
+2022-09-13 17:10:47,248 [INFO] RetryExec:113 - Retrying request to {tls}->http://localhost:3081->https://archive.eclipse.org:443
+2022-09-13 17:10:48,371 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {tls}->http://localhost:3081->https://download.eclipse.org:443: The target server failed to respond
+2022-09-13 17:10:48,371 [INFO] RetryExec:113 - Retrying request to {tls}->http://localhost:3081->https://download.eclipse.org:443
+2022-09-13 17:13:14,001 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {tls}->http://localhost:3081->https://download.eclipse.org:443: The target server failed to respond
+2022-09-13 17:13:14,001 [INFO] RetryExec:113 - Retrying request to {tls}->http://localhost:3081->https://download.eclipse.org:443
+2022-09-13 17:13:15,103 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {tls}->http://localhost:3081->https://archive.eclipse.org:443: The target server failed to respond
+2022-09-13 17:13:15,103 [INFO] RetryExec:113 - Retrying request to {tls}->http://localhost:3081->https://archive.eclipse.org:443
+2022-09-13 17:13:16,218 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {tls}->http://localhost:3081->https://download.eclipse.org:443: The target server failed to respond
+2022-09-13 17:13:16,219 [INFO] RetryExec:113 - Retrying request to {tls}->http://localhost:3081->https://download.eclipse.org:443
+2022-09-13 17:13:17,400 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {tls}->http://localhost:3081->https://archive.eclipse.org:443: The target server failed to respond
+2022-09-13 17:13:17,401 [INFO] RetryExec:113 - Retrying request to {tls}->http://localhost:3081->https://archive.eclipse.org:443
+2022-09-13 17:13:18,653 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {tls}->http://localhost:3081->https://download.eclipse.org:443: The target server failed to respond
+2022-09-13 17:13:18,653 [INFO] RetryExec:113 - Retrying request to {tls}->http://localhost:3081->https://download.eclipse.org:443
+2022-09-13 17:16:05,587 [INFO] MainUpdater:2230 - connection check result : 10
+2022-09-13 17:16:05,716 [INFO] CheckServerUpdateThread:92 - End of CheckServer Thread
+2022-09-13 17:16:13,379 [INFO] ServerAccessManage:348 - Download File updaters.zip
+2022-09-13 17:16:13,412 [INFO] FileExtend:225 - Unzip File : updaters.zip
+2022-09-13 17:16:13,412 [INFO] FileExtend:240 - Standard Zip Deflate
+2022-09-13 17:16:13,802 [INFO] ServerAccessManage:348 - Download File PacksControlFlags.xml
+2022-09-13 17:16:13,833 [INFO] ServerAccessManage:348 - Download File cubemx.pidx
+2022-09-13 17:16:13,847 [INFO] LoadServerUpdatesThread:301 - End of LoadServerUpdate Thread
+2022-09-13 17:16:13,879 [INFO] CheckServerUpdateThread:92 - End of CheckServer Thread
+2022-09-13 17:16:15,242 [INFO] ServerAccessManage:348 - Download File updaters.zip
+2022-09-13 17:16:15,268 [INFO] FileExtend:225 - Unzip File : updaters.zip
+2022-09-13 17:16:15,268 [INFO] FileExtend:240 - Standard Zip Deflate
+2022-09-13 17:16:15,525 [INFO] ServerAccessManage:348 - Download File PacksControlFlags.xml
+2022-09-13 17:16:15,548 [INFO] ServerAccessManage:348 - Download File cubemx.pidx
+2022-09-13 17:16:15,558 [INFO] LoadServerUpdatesThread:301 - End of LoadServerUpdate Thread
+2022-09-13 17:16:15,587 [INFO] CheckServerUpdateThread:92 - End of CheckServer Thread
+2022-09-13 17:16:27,958 [INFO] ServerAccessManage:348 - Download File updaters.zip
+2022-09-13 17:16:27,995 [INFO] FileExtend:225 - Unzip File : updaters.zip
+2022-09-13 17:16:27,995 [INFO] FileExtend:240 - Standard Zip Deflate
+2022-09-13 17:16:28,150 [INFO] ServerAccessManage:348 - Download File PacksControlFlags.xml
+2022-09-13 17:16:28,175 [INFO] ServerAccessManage:348 - Download File cubemx.pidx
+2022-09-13 17:16:28,188 [INFO] LoadServerUpdatesThread:301 - End of LoadServerUpdate Thread
+2022-09-13 17:16:28,223 [INFO] CheckServerUpdateThread:92 - End of CheckServer Thread
+2022-09-13 17:16:57,647 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:3081->http://sw-center.st.com:80: The target server failed to respond
+2022-09-13 17:16:57,647 [INFO] RetryExec:113 - Retrying request to {}->http://localhost:3081->http://sw-center.st.com:80
+2022-09-13 17:21:05,777 [INFO] Activator:176 - 
+
+
+2022-09-13 17:21:05,781 [INFO] Activator:177 - !SESSION log4j initialized
+2022-09-13 17:21:39,489 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {tls}->http://localhost:3081->https://download.eclipse.org:443: The target server failed to respond
+2022-09-13 17:21:39,490 [INFO] RetryExec:113 - Retrying request to {tls}->http://localhost:3081->https://download.eclipse.org:443
+2022-09-13 17:23:38,915 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:3081->http://sw-center.st.com:80: The target server failed to respond
+2022-09-13 17:23:38,915 [INFO] RetryExec:113 - Retrying request to {}->http://localhost:3081->http://sw-center.st.com:80
+2022-09-13 17:23:40,462 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:3081->http://sw-center.st.com:80: The target server failed to respond
+2022-09-13 17:23:40,463 [INFO] RetryExec:113 - Retrying request to {}->http://localhost:3081->http://sw-center.st.com:80
+2022-09-13 17:26:32,331 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:3081->http://sw-center.st.com:80: The target server failed to respond
+2022-09-13 17:26:32,331 [INFO] RetryExec:113 - Retrying request to {}->http://localhost:3081->http://sw-center.st.com:80
+2022-09-13 17:26:35,065 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:3081->http://sw-center.st.com:80: The target server failed to respond
+2022-09-13 17:26:35,065 [INFO] RetryExec:113 - Retrying request to {}->http://localhost:3081->http://sw-center.st.com:80
+2022-09-13 17:26:36,045 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:3081->http://sw-center.st.com:80: The target server failed to respond
+2022-09-13 17:26:36,045 [INFO] RetryExec:113 - Retrying request to {}->http://localhost:3081->http://sw-center.st.com:80
+2022-09-13 17:26:39,848 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:3081->http://sw-center.st.com:80: The target server failed to respond
+2022-09-13 17:26:39,848 [INFO] RetryExec:113 - Retrying request to {}->http://localhost:3081->http://sw-center.st.com:80
+2022-09-13 17:26:45,781 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:3081->http://sw-center.st.com:80: The target server failed to respond
+2022-09-13 17:26:45,781 [INFO] RetryExec:113 - Retrying request to {}->http://localhost:3081->http://sw-center.st.com:80
+2022-09-13 17:27:04,515 [INFO] Activator:176 - 
+
+
+2022-09-13 17:27:04,517 [INFO] Activator:177 - !SESSION log4j initialized
+2022-09-13 17:27:12,534 [INFO] ApplicationProperties:181 - Using Application install path: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2022-09-13 17:27:12,548 [INFO] DbMcusXml:72 - Set database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2022-09-13 17:27:12,552 [INFO] DbBoardsPdsc:54 - Set plugin database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2022-09-13 17:27:12,552 [INFO] DbMcus:235 - Set plugin images path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2022-09-13 17:27:12,552 [INFO] DbBoards:232 - Set plugin images path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2022-09-13 17:27:12,560 [INFO] DbMcusAds:85 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:27:12,561 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:27:12,563 [INFO] DbMcusJson:61 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:27:12,563 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:27:12,564 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:27:12,576 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-09-13 17:27:12,655 [INFO] RulesReader:52 - Compatibility file has been processed (208 Rules)
+2022-09-13 17:27:12,787 [INFO] MicroXplorer:570 - Detected Java Version = 1.8.0_242
+2022-09-13 17:27:12,787 [INFO] DbMcusXml:72 - Set database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2022-09-13 17:27:12,787 [INFO] DbBoardsPdsc:54 - Set plugin database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2022-09-13 17:27:12,788 [INFO] DbMcus:235 - Set plugin images path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2022-09-13 17:27:12,788 [INFO] DbBoards:232 - Set plugin images path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2022-09-13 17:27:12,788 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:27:12,789 [INFO] DbMcusAds:85 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:27:12,789 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:27:12,789 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:27:12,789 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:27:12,789 [INFO] DbMcusJson:61 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:27:12,789 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:27:12,789 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:27:12,789 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:27:12,790 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:27:12,790 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:27:12,790 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:27:12,790 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-09-13 17:27:12,852 [INFO] MainPanel:181 - HeapMemory: 268435456
+2022-09-13 17:27:12,934 [INFO] DbMcusXml:72 - Set database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2022-09-13 17:27:12,934 [INFO] DbBoardsPdsc:54 - Set plugin database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2022-09-13 17:27:12,935 [INFO] DbMcus:235 - Set plugin images path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2022-09-13 17:27:12,935 [INFO] DbBoards:232 - Set plugin images path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2022-09-13 17:27:12,935 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:27:12,935 [INFO] DbMcusAds:85 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:27:12,936 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:27:12,936 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:27:12,936 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:27:12,936 [INFO] DbMcusJson:61 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:27:12,936 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:27:12,936 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:27:12,936 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:27:12,936 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:27:12,937 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:27:12,937 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:27:12,937 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-09-13 17:27:12,953 [INFO] ApplicationProperties:181 - Using Application install path: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2022-09-13 17:27:12,954 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=, tutovideos]
+2022-09-13 17:27:12,955 [INFO] PluginManage:292 - Check plugin analytics
+2022-09-13 17:27:12,961 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2022-09-13 17:27:12,962 [INFO] PluginManage:292 - Check plugin clock
+2022-09-13 17:27:12,972 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2022-09-13 17:27:12,972 [INFO] PluginManage:292 - Check plugin ddr
+2022-09-13 17:27:12,975 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2022-09-13 17:27:12,975 [INFO] PluginManage:292 - Check plugin filemanager
+2022-09-13 17:27:13,064 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2022-09-13 17:27:13,064 [INFO] PluginManage:292 - Check plugin ipmanager
+2022-09-13 17:27:13,071 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2022-09-13 17:27:13,071 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2022-09-13 17:27:13,080 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2022-09-13 17:27:13,080 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2022-09-13 17:27:13,103 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2022-09-13 17:27:13,103 [INFO] PluginManage:292 - Check plugin power
+2022-09-13 17:27:13,113 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2022-09-13 17:27:13,113 [INFO] PluginManage:292 - Check plugin projectmanager
+2022-09-13 17:27:13,125 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2022-09-13 17:27:13,125 [INFO] PluginManage:292 - Check plugin thirdparty
+2022-09-13 17:27:13,145 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/AxiDo/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 3 ms. number of Sw pack : 1
+2022-09-13 17:27:13,150 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2022-09-13 17:27:13,151 [INFO] PluginManage:292 - Check plugin tools
+2022-09-13 17:27:13,152 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2022-09-13 17:27:13,152 [INFO] PluginManage:292 - Check plugin tutovideos
+2022-09-13 17:27:13,153 [INFO] PluginManage:347 - Ignore plugin tutovideos (category:base)
+2022-09-13 17:27:13,153 [INFO] PluginManage:292 - Check plugin updater
+2022-09-13 17:27:13,162 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2022-09-13 17:27:13,163 [INFO] PluginManage:265 - PluginManage : Loaded plugins [12]
+2022-09-13 17:27:13,297 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2022-09-13 17:27:13,362 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,362 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2022-09-13 17:27:13,364 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,364 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2022-09-13 17:27:13,366 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,367 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2022-09-13 17:27:13,367 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,367 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2022-09-13 17:27:13,369 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,369 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2022-09-13 17:27:13,371 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,372 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2022-09-13 17:27:13,376 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,377 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2022-09-13 17:27:13,378 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,378 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2022-09-13 17:27:13,381 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,381 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2022-09-13 17:27:13,387 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,387 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2022-09-13 17:27:13,388 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,388 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2022-09-13 17:27:13,390 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,390 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2022-09-13 17:27:13,394 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,394 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2022-09-13 17:27:13,398 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,398 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2022-09-13 17:27:13,400 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,400 [INFO] PluginManager:200 - loadIPPluginJar : add gtzc
+2022-09-13 17:27:13,402 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,402 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2022-09-13 17:27:13,404 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,405 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2022-09-13 17:27:13,407 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,407 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2022-09-13 17:27:13,410 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,410 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2022-09-13 17:27:13,411 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,412 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2022-09-13 17:27:13,414 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,415 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2022-09-13 17:27:13,418 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,418 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2022-09-13 17:27:13,420 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,420 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2022-09-13 17:27:13,423 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,423 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2022-09-13 17:27:13,428 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,430 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2022-09-13 17:27:13,431 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,431 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2022-09-13 17:27:13,435 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,435 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2022-09-13 17:27:13,438 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,438 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2022-09-13 17:27:13,440 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,440 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2022-09-13 17:27:13,443 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,443 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2022-09-13 17:27:13,445 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,445 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2022-09-13 17:27:13,447 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,448 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2022-09-13 17:27:13,450 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,450 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2022-09-13 17:27:13,452 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,452 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2022-09-13 17:27:13,454 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,454 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2022-09-13 17:27:13,456 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,456 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2022-09-13 17:27:13,458 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:27:13,458 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2022-09-13 17:27:14,034 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2022-09-13 17:27:14,034 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: null
+2022-09-13 17:27:14,196 [FATAL] Updater:277 - Updater called before beeing initialized
+2022-09-13 17:27:14,345 [FATAL] Updater:277 - Updater called before beeing initialized
+2022-09-13 17:27:14,347 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2022-09-13 17:27:14,348 [FATAL] Updater:277 - Updater called before beeing initialized
+2022-09-13 17:27:14,350 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2022-09-13 17:27:14,351 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin
+2022-09-13 17:27:14,355 [INFO] ProgrammerExecThread:148 - [ProgrammerAPI] CubeProgrammer command construction: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin\STM32_Programmer_CLI.exe -l
+2022-09-13 17:27:14,461 [INFO] MainDdrPanel:93 - [DDR PANEL] SETTER - Set cubeProgrammerPath to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin
+2022-09-13 17:27:14,472 [INFO] Updater:886 - Updater Version found : 5.6.0
+2022-09-13 17:27:14,493 [INFO] ApplicationProperties:181 - Using Application install path: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2022-09-13 17:27:14,642 [INFO] MainUpdater:2230 - connection check result : 10
+2022-09-13 17:27:14,642 [INFO] MainUpdater:236 - Updater Check For Update Now.
+2022-09-13 17:27:14,642 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2022-09-13 17:27:14,646 [INFO] MainUpdater:2230 - connection check result : 10
+2022-09-13 17:27:14,648 [INFO] MainUpdater:580 - Updater currently busy
+2022-09-13 17:27:14,688 [INFO] CheckServerUpdateThread:92 - End of CheckServer Thread
+2022-09-13 17:27:16,166 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (C:/Users/AxiDo/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2022-09-13 17:27:16,170 [INFO] IntegrityCheckThread:98 - End integrity checks thread
+2022-09-13 17:27:18,359 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:3081->http://sw-center.st.com:80: The target server failed to respond
+2022-09-13 17:27:18,360 [INFO] RetryExec:113 - Retrying request to {}->http://localhost:3081->http://sw-center.st.com:80
+2022-09-13 17:27:18,365 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://localhost:3081->http://sw-center.st.com:80: The target server failed to respond
+2022-09-13 17:27:18,365 [INFO] RetryExec:113 - Retrying request to {}->http://localhost:3081->http://sw-center.st.com:80
+2022-09-13 17:28:57,764 [INFO] Activator:176 - 
+
+
+2022-09-13 17:28:57,766 [INFO] Activator:177 - !SESSION log4j initialized
+2022-09-13 17:29:53,465 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2022-09-13 17:29:53,466 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2022-09-13 17:29:54,414 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://archive.eclipse.org:443: The target server failed to respond
+2022-09-13 17:29:54,415 [INFO] RetryExec:113 - Retrying request to {s}->https://archive.eclipse.org:443
+2022-09-13 17:29:55,442 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2022-09-13 17:29:55,443 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2022-09-13 17:31:28,934 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {s}->https://download.eclipse.org:443: Connection reset
+2022-09-13 17:31:28,934 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2022-09-13 17:31:30,928 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2022-09-13 17:31:30,929 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2022-09-13 17:37:01,484 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://download.eclipse.org:443: The target server failed to respond
+2022-09-13 17:37:01,485 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2022-09-13 17:41:56,395 [INFO] Activator:176 - 
+
+
+2022-09-13 17:41:56,397 [INFO] Activator:177 - !SESSION log4j initialized
+2022-09-13 17:42:43,516 [INFO] ApplicationProperties:181 - Using Application install path: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2022-09-13 17:42:43,531 [INFO] DbMcusXml:72 - Set database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2022-09-13 17:42:43,535 [INFO] DbBoardsPdsc:54 - Set plugin database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2022-09-13 17:42:43,536 [INFO] DbMcus:235 - Set plugin images path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2022-09-13 17:42:43,536 [INFO] DbBoards:232 - Set plugin images path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2022-09-13 17:42:43,541 [INFO] DbMcusAds:85 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:42:43,541 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:42:43,543 [INFO] DbMcusJson:61 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:42:43,543 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:42:43,544 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:42:43,556 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-09-13 17:42:43,635 [INFO] RulesReader:52 - Compatibility file has been processed (208 Rules)
+2022-09-13 17:42:43,703 [INFO] MicroXplorer:570 - Detected Java Version = 1.8.0_242
+2022-09-13 17:42:43,704 [INFO] DbMcusXml:72 - Set database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2022-09-13 17:42:43,704 [INFO] DbBoardsPdsc:54 - Set plugin database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2022-09-13 17:42:43,704 [INFO] DbMcus:235 - Set plugin images path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2022-09-13 17:42:43,705 [INFO] DbBoards:232 - Set plugin images path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2022-09-13 17:42:43,705 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:42:43,705 [INFO] DbMcusAds:85 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:42:43,705 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:42:43,705 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:42:43,705 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:42:43,705 [INFO] DbMcusJson:61 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:42:43,706 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:42:43,706 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:42:43,706 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:42:43,706 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:42:43,706 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:42:43,706 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:42:43,706 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-09-13 17:42:43,765 [INFO] MainPanel:181 - HeapMemory: 268435456
+2022-09-13 17:42:43,841 [INFO] DbMcusXml:72 - Set database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2022-09-13 17:42:43,841 [INFO] DbBoardsPdsc:54 - Set plugin database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2022-09-13 17:42:43,841 [INFO] DbMcus:235 - Set plugin images path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2022-09-13 17:42:43,841 [INFO] DbBoards:232 - Set plugin images path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2022-09-13 17:42:43,842 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:42:43,842 [INFO] DbMcusAds:85 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:42:43,842 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:42:43,842 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:42:43,842 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:42:43,842 [INFO] DbMcusJson:61 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:42:43,842 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:42:43,842 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:42:43,843 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:42:43,843 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:42:43,843 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:42:43,843 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:42:43,843 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-09-13 17:42:43,858 [INFO] ApplicationProperties:181 - Using Application install path: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2022-09-13 17:42:43,859 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=, tutovideos]
+2022-09-13 17:42:43,860 [INFO] PluginManage:292 - Check plugin analytics
+2022-09-13 17:42:43,867 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2022-09-13 17:42:43,867 [INFO] PluginManage:292 - Check plugin clock
+2022-09-13 17:42:43,876 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2022-09-13 17:42:43,876 [INFO] PluginManage:292 - Check plugin ddr
+2022-09-13 17:42:43,880 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2022-09-13 17:42:43,880 [INFO] PluginManage:292 - Check plugin filemanager
+2022-09-13 17:42:43,969 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2022-09-13 17:42:43,969 [INFO] PluginManage:292 - Check plugin ipmanager
+2022-09-13 17:42:43,977 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2022-09-13 17:42:43,977 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2022-09-13 17:42:43,987 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2022-09-13 17:42:43,987 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2022-09-13 17:42:44,012 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2022-09-13 17:42:44,012 [INFO] PluginManage:292 - Check plugin power
+2022-09-13 17:42:44,060 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2022-09-13 17:42:44,061 [INFO] PluginManage:292 - Check plugin projectmanager
+2022-09-13 17:42:44,074 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2022-09-13 17:42:44,074 [INFO] PluginManage:292 - Check plugin thirdparty
+2022-09-13 17:42:44,106 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/AxiDo/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 3 ms. number of Sw pack : 1
+2022-09-13 17:42:44,111 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2022-09-13 17:42:44,111 [INFO] PluginManage:292 - Check plugin tools
+2022-09-13 17:42:44,113 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2022-09-13 17:42:44,113 [INFO] PluginManage:292 - Check plugin tutovideos
+2022-09-13 17:42:44,114 [INFO] PluginManage:347 - Ignore plugin tutovideos (category:base)
+2022-09-13 17:42:44,114 [INFO] PluginManage:292 - Check plugin updater
+2022-09-13 17:42:44,123 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2022-09-13 17:42:44,123 [INFO] PluginManage:265 - PluginManage : Loaded plugins [12]
+2022-09-13 17:42:44,247 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2022-09-13 17:42:44,307 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,308 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2022-09-13 17:42:44,310 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,310 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2022-09-13 17:42:44,312 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,312 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2022-09-13 17:42:44,313 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,313 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2022-09-13 17:42:44,315 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,315 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2022-09-13 17:42:44,317 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,317 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2022-09-13 17:42:44,321 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,321 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2022-09-13 17:42:44,322 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,322 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2022-09-13 17:42:44,325 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,325 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2022-09-13 17:42:44,331 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,331 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2022-09-13 17:42:44,332 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,332 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2022-09-13 17:42:44,334 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,334 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2022-09-13 17:42:44,338 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,338 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2022-09-13 17:42:44,341 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,341 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2022-09-13 17:42:44,343 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,344 [INFO] PluginManager:200 - loadIPPluginJar : add gtzc
+2022-09-13 17:42:44,346 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,346 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2022-09-13 17:42:44,348 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,348 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2022-09-13 17:42:44,350 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,350 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2022-09-13 17:42:44,353 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,354 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2022-09-13 17:42:44,355 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,355 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2022-09-13 17:42:44,358 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,358 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2022-09-13 17:42:44,361 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,361 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2022-09-13 17:42:44,363 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,364 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2022-09-13 17:42:44,366 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,366 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2022-09-13 17:42:44,371 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,373 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2022-09-13 17:42:44,374 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,375 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2022-09-13 17:42:44,378 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,378 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2022-09-13 17:42:44,380 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,381 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2022-09-13 17:42:44,382 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,383 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2022-09-13 17:42:44,385 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,385 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2022-09-13 17:42:44,387 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,387 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2022-09-13 17:42:44,389 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,389 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2022-09-13 17:42:44,391 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,391 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2022-09-13 17:42:44,393 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,393 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2022-09-13 17:42:44,395 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,395 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2022-09-13 17:42:44,396 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,396 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2022-09-13 17:42:44,398 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2022-09-13 17:42:44,398 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2022-09-13 17:42:45,029 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2022-09-13 17:42:45,030 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: null
+2022-09-13 17:42:45,188 [FATAL] Updater:277 - Updater called before beeing initialized
+2022-09-13 17:42:45,327 [FATAL] Updater:277 - Updater called before beeing initialized
+2022-09-13 17:42:45,329 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2022-09-13 17:42:45,329 [FATAL] Updater:277 - Updater called before beeing initialized
+2022-09-13 17:42:45,332 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2022-09-13 17:42:45,333 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin
+2022-09-13 17:42:45,337 [INFO] ProgrammerExecThread:148 - [ProgrammerAPI] CubeProgrammer command construction: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin\STM32_Programmer_CLI.exe -l
+2022-09-13 17:42:45,450 [INFO] MainDdrPanel:93 - [DDR PANEL] SETTER - Set cubeProgrammerPath to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin
+2022-09-13 17:42:45,455 [INFO] Updater:886 - Updater Version found : 5.6.0
+2022-09-13 17:42:45,473 [INFO] ApplicationProperties:181 - Using Application install path: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2022-09-13 17:42:45,600 [INFO] MainUpdater:2230 - connection check result : 10
+2022-09-13 17:42:45,601 [INFO] MainUpdater:236 - Updater Check For Update Now.
+2022-09-13 17:42:45,601 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2022-09-13 17:42:45,605 [INFO] MainUpdater:2230 - connection check result : 10
+2022-09-13 17:42:45,607 [INFO] MainUpdater:580 - Updater currently busy
+2022-09-13 17:42:45,665 [INFO] CheckServerUpdateThread:92 - End of CheckServer Thread
+2022-09-13 17:42:47,128 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (C:/Users/AxiDo/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2022-09-13 17:42:47,131 [INFO] IntegrityCheckThread:98 - End integrity checks thread
+2022-09-13 17:43:32,395 [INFO] Activator:177 - 
+
+
+2022-09-13 17:43:32,396 [INFO] Activator:178 - !SESSION log4j initialized
+2022-09-13 17:43:57,618 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-09-13 17:43:57,619 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-09-13 17:43:57,620 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-09-13 17:45:26,515 [INFO] Activator:177 - 
+
+
+2022-09-13 17:45:26,516 [INFO] Activator:178 - !SESSION log4j initialized
+2022-09-13 17:45:49,992 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-09-13 17:45:49,993 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-09-13 17:45:49,994 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-09-13 17:46:39,911 [INFO] Activator:177 - 
+
+
+2022-09-13 17:46:39,911 [INFO] Activator:178 - !SESSION log4j initialized
+2022-09-13 17:46:42,047 [ERROR] ConfigurationRetriever:139 - IOException on connection: Remote host terminated the handshake
+2022-09-13 17:46:42,051 [ERROR] ConfigurationRetriever:139 - IOException on connection: Remote host terminated the handshake
+2022-09-13 17:46:42,055 [ERROR] ConfigurationRetriever:139 - IOException on connection: Remote host terminated the handshake
+2022-09-13 17:46:57,850 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-09-13 17:46:57,851 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-09-13 17:46:57,853 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-09-13 17:47:07,163 [INFO] McuFinderGlobals:44 - Set McuFinder mode to 2 (CubeIDE integrated)
+2022-09-13 17:47:07,168 [INFO] McuFinderGlobals:57 - Set McuFinderConnectedMode to true
+2022-09-13 17:47:07,354 [INFO] ApplicationProperties:181 - Using Application install path: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420
+2022-09-13 17:47:07,369 [INFO] DbMcusXml:77 - Set database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\/mcu/
+2022-09-13 17:47:07,369 [INFO] ApiDb:269 - Set plugin database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\/plugins/boardmanager/
+2022-09-13 17:47:07,371 [WARN] ApiDb:254 - Overriding images path with different value:  => D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\/plugins/mcufinder/images/
+2022-09-13 17:47:08,387 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/X-NUCLEO-S2915A1.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-S2915A1.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,391 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/X-NUCLEO-S2868A2.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-S2868A2.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,394 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/X-NUCLEO-S2868A1.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-S2868A1.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,397 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/X-NUCLEO-NFC07A1.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-NFC07A1.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,406 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/X-NUCLEO-NFC04A1.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-NFC04A1.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,409 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/X-NUCLEO-IKS02A1.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-IKS02A1.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,416 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/X-NUCLEO-IKS01A3.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-IKS01A3.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,423 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/X-NUCLEO-IKS01A2.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-IKS01A2.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,429 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/X-NUCLEO-IDB05A2.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-IDB05A2.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,430 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/X-NUCLEO-GNSS1A1.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-GNSS1A1.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,434 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/X-NUCLEO-EEPRMA2.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-EEPRMA2.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,436 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/X-NUCLEO-EEPRMA1.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-EEPRMA1.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,437 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/X-NUCLEO-BNRG2A1.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-BNRG2A1.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,441 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/X-NUCLEO-6283A1.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-6283A1.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,442 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/VD6283TX.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\VD6283TX.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,444 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/Teseo-LIV3F.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\Teseo-LIV3F.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,445 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/STTS751.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\STTS751.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,445 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/STEVAL-MKI209V1K.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\STEVAL-MKI209V1K.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,447 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/ST25DV64KC.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\ST25DV64KC.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,448 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/ST25DV04K.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\ST25DV04K.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,449 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/S2-LP.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\S2-LP.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,450 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/M95M04-DR.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\M95M04-DR.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,450 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/M95M01-DF.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\M95M01-DF.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,451 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/M95256-DF.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\M95256-DF.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,451 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/M95040-R.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\M95040-R.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,451 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/M24M01-DF.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\M24M01-DF.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,452 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/M24C02-F.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\M24C02-F.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,452 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/M24256-DF.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\M24256-DF.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,453 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/LSM6DSO.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\LSM6DSO.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,454 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/LSM6DSL.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\LSM6DSL.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,455 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/LSM303AGR.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\LSM303AGR.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,456 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/LPS22HH.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\LPS22HH.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,457 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/LPS22HB.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\LPS22HB.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,458 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/LIS2MDL.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\LIS2MDL.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,459 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/LIS2DW12.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\LIS2DW12.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,460 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/ISM330DHCX.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\ISM330DHCX.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,461 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/IMP34DT05.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\IMP34DT05.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,463 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/IIS2MDC.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\IIS2MDC.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,472 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/IIS2ICLX.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\IIS2ICLX.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,472 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/IIS2DLPC.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\IIS2DLPC.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,474 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/HTS221.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\HTS221.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,474 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/BlueNRG-M2SP.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\BlueNRG-M2SP.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,475 [ERROR] ApiFinderProperties:228 - Failed to read file additional_hw_images/BlueNRG-M0.jpg: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\BlueNRG-M0.jpg (系统找不到指定的路径。)
+2022-09-13 17:47:08,513 [INFO] ApiDb:249 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:47:08,514 [INFO] DbMcusAds:124 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:47:08,519 [INFO] CrossReferenceDbSqlite:201 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-09-13 17:47:08,605 [INFO] RulesReader:61 - Compatibility file has been processed (282 Rules)
+2022-09-13 17:47:08,674 [INFO] DbMcusXml:77 - Set database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\/mcu/
+2022-09-13 17:47:08,674 [INFO] ApiDb:269 - Set plugin database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\/plugins/boardmanager/
+2022-09-13 17:47:08,675 [INFO] ApiDb:256 - Set plugin images path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\/plugins/mcufinder/images/
+2022-09-13 17:47:08,675 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:47:08,675 [INFO] ApiDb:249 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:47:08,675 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:47:08,675 [INFO] DbMcusAds:124 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:47:08,676 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:47:08,676 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:47:08,676 [INFO] CrossReferenceDbSqlite:201 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-09-13 17:47:08,732 [INFO] MainPanel:242 - HeapMemory: 268435456
+2022-09-13 17:47:08,786 [INFO] DbMcusXml:77 - Set database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\/mcu/
+2022-09-13 17:47:08,787 [INFO] ApiDb:269 - Set plugin database path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\/plugins/boardmanager/
+2022-09-13 17:47:08,787 [INFO] ApiDb:256 - Set plugin images path to: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\/plugins/mcufinder/images/
+2022-09-13 17:47:08,787 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:47:08,787 [INFO] ApiDb:249 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:47:08,787 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:47:08,788 [INFO] DbMcusAds:124 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/
+2022-09-13 17:47:08,788 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:47:08,788 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder/ => C:\Users\AxiDo\.stmcufinder\plugins\mcufinder
+2022-09-13 17:47:08,788 [INFO] CrossReferenceDbSqlite:201 - Set database path to: C:\Users\AxiDo\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-09-13 17:47:08,802 [INFO] ApplicationProperties:181 - Using Application install path: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420
+2022-09-13 17:47:08,804 [INFO] PluginManage:193 - Search for loadable plugins [exclusion list=, ]
+2022-09-13 17:47:08,805 [INFO] PluginManage:307 - Check plugin analytics
+2022-09-13 17:47:09,024 [INFO] AnalyticsPlugin:262 - Accepted Software Licenses: 
+2022-09-13 17:47:09,025 [INFO] AnalyticsPlugin:264 - Accepted CMSIS Pack Licenses: 
+2022-09-13 17:47:09,026 [INFO] AnalyticsPlugin:266 - Accepted Firmware Licenses: 
+2022-09-13 17:47:09,034 [ERROR] ConfigurationRetriever:140 - IOException on connection: Remote host terminated the handshake
+2022-09-13 17:47:09,035 [INFO] PluginManage:356 - Loaded plugin analytics (category:tool,tabindex:-1)
+2022-09-13 17:47:09,036 [INFO] PluginManage:307 - Check plugin cadmodel
+2022-09-13 17:47:09,038 [INFO] CADModel:65 - Init CAD model plugin
+2022-09-13 17:47:09,039 [INFO] PluginManage:356 - Loaded plugin cadmodel (category:power,tabindex:5)
+2022-09-13 17:47:09,039 [INFO] PluginManage:307 - Check plugin clock
+2022-09-13 17:47:09,039 [ERROR] ConfigurationRetriever:140 - IOException on connection: Remote host terminated the handshake
+2022-09-13 17:47:09,046 [ERROR] ConfigurationRetriever:140 - IOException on connection: Remote host terminated the handshake
+2022-09-13 17:47:09,052 [INFO] PluginManage:356 - Loaded plugin clock (category:base,tabindex:2)
+2022-09-13 17:47:09,052 [INFO] PluginManage:307 - Check plugin ddr
+2022-09-13 17:47:09,053 [INFO] PluginManage:356 - Loaded plugin ddr (category:tool,tabindex:6)
+2022-09-13 17:47:09,054 [INFO] PluginManage:307 - Check plugin filemanager
+2022-09-13 17:47:09,178 [INFO] PluginManage:356 - Loaded plugin filemanager (category:base,tabindex:10)
+2022-09-13 17:47:09,179 [INFO] PluginManage:307 - Check plugin ipmanager
+2022-09-13 17:47:09,184 [INFO] PluginManage:356 - Loaded plugin ipmanager (category:base,tabindex:5)
+2022-09-13 17:47:09,185 [INFO] PluginManage:307 - Check plugin lpbam
+2022-09-13 17:47:09,191 [INFO] PluginManage:356 - Loaded plugin lpbam (category:base,tabindex:0)
+2022-09-13 17:47:09,191 [INFO] PluginManage:307 - Check plugin pinoutandconfiguration
+2022-09-13 17:47:09,198 [INFO] PluginManage:356 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2022-09-13 17:47:09,198 [INFO] PluginManage:307 - Check plugin pinoutconfig
+2022-09-13 17:47:09,229 [INFO] PluginManage:356 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2022-09-13 17:47:09,229 [INFO] PluginManage:307 - Check plugin power
+2022-09-13 17:47:09,240 [INFO] PluginManage:356 - Loaded plugin power (category:power,tabindex:4)
+2022-09-13 17:47:09,241 [INFO] PluginManage:307 - Check plugin projectmanager
+2022-09-13 17:47:09,258 [INFO] PluginManage:356 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2022-09-13 17:47:09,259 [INFO] PluginManage:307 - Check plugin thirdparty
+2022-09-13 17:47:09,347 [INFO] PluginManage:356 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2022-09-13 17:47:09,347 [INFO] PluginManage:307 - Check plugin tools
+2022-09-13 17:47:09,347 [WARN] IntegrityCheckThread:82 - waiting for thirdparty lock release [integrity check]
+2022-09-13 17:47:09,347 [INFO] IntegrityCheckThread:84 - entering critical section [integrity check]
+2022-09-13 17:47:09,350 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [1/15]
+2022-09-13 17:47:09,350 [INFO] PluginManage:356 - Loaded plugin tools (category:base,tabindex:7)
+2022-09-13 17:47:09,350 [INFO] PluginManage:307 - Check plugin tutovideos
+2022-09-13 17:47:09,506 [INFO] PluginManage:356 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2022-09-13 17:47:09,506 [INFO] PluginManage:307 - Check plugin updater
+2022-09-13 17:47:09,518 [INFO] PluginManage:356 - Loaded plugin updater (category:base,tabindex:12)
+2022-09-13 17:47:09,519 [INFO] PluginManage:280 - PluginManage : Loaded plugins [15]
+2022-09-13 17:47:09,706 [INFO] PinOutPanel:1468 - setPackage(No Configuration,No Configuration)
+2022-09-13 17:47:09,761 [INFO] CADModel:98 - CPN selected for project level
+2022-09-13 17:47:09,772 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,773 [INFO] PluginManager:217 - loadIPPluginJar : add adc
+2022-09-13 17:47:09,775 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,775 [INFO] PluginManager:217 - loadIPPluginJar : add aes
+2022-09-13 17:47:09,777 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,777 [INFO] PluginManager:217 - loadIPPluginJar : add can
+2022-09-13 17:47:09,778 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,778 [INFO] PluginManager:217 - loadIPPluginJar : add comp
+2022-09-13 17:47:09,780 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,780 [INFO] PluginManager:217 - loadIPPluginJar : add cryp
+2022-09-13 17:47:09,782 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,782 [INFO] PluginManager:217 - loadIPPluginJar : add dfsdm
+2022-09-13 17:47:09,786 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,787 [INFO] PluginManager:217 - loadIPPluginJar : add dma
+2022-09-13 17:47:09,789 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,789 [INFO] PluginManager:217 - loadIPPluginJar : add dma3
+2022-09-13 17:47:09,791 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,791 [INFO] PluginManager:217 - loadIPPluginJar : add fatfs
+2022-09-13 17:47:09,795 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,795 [INFO] PluginManager:217 - loadIPPluginJar : add fmc
+2022-09-13 17:47:09,805 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,805 [INFO] PluginManager:217 - loadIPPluginJar : add freertos
+2022-09-13 17:47:09,806 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,806 [INFO] PluginManager:217 - loadIPPluginJar : add genericplugin
+2022-09-13 17:47:09,808 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,808 [INFO] PluginManager:217 - loadIPPluginJar : add gfxmmu
+2022-09-13 17:47:09,813 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,813 [INFO] PluginManager:217 - loadIPPluginJar : add gic
+2022-09-13 17:47:09,816 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,816 [INFO] PluginManager:217 - loadIPPluginJar : add gpio
+2022-09-13 17:47:09,818 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,818 [INFO] PluginManager:217 - loadIPPluginJar : add gtzc
+2022-09-13 17:47:09,820 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,820 [INFO] PluginManager:217 - loadIPPluginJar : add hash
+2022-09-13 17:47:09,822 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,822 [INFO] PluginManager:217 - loadIPPluginJar : add i2c
+2022-09-13 17:47:09,824 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,824 [INFO] PluginManager:217 - loadIPPluginJar : add i2s
+2022-09-13 17:47:09,827 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,827 [INFO] PluginManager:217 - loadIPPluginJar : add ipddr
+2022-09-13 17:47:09,832 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,832 [INFO] PluginManager:217 - loadIPPluginJar : add linkedlist
+2022-09-13 17:47:09,834 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,834 [INFO] PluginManager:217 - loadIPPluginJar : add lorawan
+2022-09-13 17:47:09,835 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,835 [INFO] PluginManager:217 - loadIPPluginJar : add ltdc
+2022-09-13 17:47:09,840 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,840 [INFO] PluginManager:217 - loadIPPluginJar : add mdma
+2022-09-13 17:47:09,842 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,842 [INFO] PluginManager:217 - loadIPPluginJar : add nvic
+2022-09-13 17:47:09,845 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,845 [INFO] PluginManager:217 - loadIPPluginJar : add opamp
+2022-09-13 17:47:09,847 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,847 [INFO] PluginManager:217 - loadIPPluginJar : add openamp
+2022-09-13 17:47:09,849 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,849 [INFO] PluginManager:217 - loadIPPluginJar : add pdm2pcm
+2022-09-13 17:47:09,854 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,857 [INFO] PluginManager:217 - loadIPPluginJar : add plateformsettings
+2022-09-13 17:47:09,858 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,858 [INFO] PluginManager:217 - loadIPPluginJar : add quadspi
+2022-09-13 17:47:09,860 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,860 [INFO] PluginManager:217 - loadIPPluginJar : add resmgrutility
+2022-09-13 17:47:09,862 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,862 [INFO] PluginManager:217 - loadIPPluginJar : add sai
+2022-09-13 17:47:09,864 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,864 [INFO] PluginManager:217 - loadIPPluginJar : add spi
+2022-09-13 17:47:09,868 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,868 [INFO] PluginManager:217 - loadIPPluginJar : add stm32_wpan
+2022-09-13 17:47:09,869 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,869 [INFO] PluginManager:217 - loadIPPluginJar : add tim
+2022-09-13 17:47:09,873 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,873 [INFO] PluginManager:217 - loadIPPluginJar : add touchsensing
+2022-09-13 17:47:09,875 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,876 [INFO] PluginManager:217 - loadIPPluginJar : add tracer_emb
+2022-09-13 17:47:09,877 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,877 [INFO] PluginManager:217 - loadIPPluginJar : add ts
+2022-09-13 17:47:09,879 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,879 [INFO] PluginManager:217 - loadIPPluginJar : add tsc
+2022-09-13 17:47:09,880 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,880 [INFO] PluginManager:217 - loadIPPluginJar : add ucpd
+2022-09-13 17:47:09,882 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,882 [INFO] PluginManager:217 - loadIPPluginJar : add usart
+2022-09-13 17:47:09,884 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-09-13 17:47:09,884 [INFO] PluginManager:217 - loadIPPluginJar : add usbx
+2022-09-13 17:47:10,161 [FATAL] Updater:301 - Updater called before beeing initialized
+2022-09-13 17:47:10,255 [FATAL] Updater:301 - Updater called before beeing initialized
+2022-09-13 17:47:10,262 [INFO] DbMcusAds:52 - JSON generation date=Thu Sep 30 14:55:09 CST 2021 (1632984909247)
+2022-09-13 17:47:10,263 [FATAL] Updater:301 - Updater called before beeing initialized
+2022-09-13 17:47:10,291 [WARN] DetailPanel:344 - Failed to get advertising image, set to default
+2022-09-13 17:47:10,393 [FATAL] Updater:301 - Updater called before beeing initialized
+2022-09-13 17:47:10,395 [FATAL] Updater:301 - Updater called before beeing initialized
+2022-09-13 17:47:10,395 [FATAL] Updater:301 - Updater called before beeing initialized
+2022-09-13 17:47:10,395 [WARN] DetailPanel:344 - Failed to get advertising image, set to default
+2022-09-13 17:47:10,396 [FATAL] Updater:301 - Updater called before beeing initialized
+2022-09-13 17:47:10,437 [ERROR] Updater:1105 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2022-09-13 17:47:10,440 [INFO] Updater:1041 - Updater Version found : 6.6.1
+2022-09-13 17:47:10,455 [INFO] ApplicationProperties:181 - Using Application install path: D:\IDE\STM32CubeIDE\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420
+2022-09-13 17:47:10,540 [INFO] MainUpdater:516 - Copy updater definitions from MX database
+2022-09-13 17:47:11,020 [INFO] MainUpdater:2768 - connection check result : 10
+2022-09-13 17:47:11,020 [INFO] MainUpdater:3453 - Updater definition file requires update
+2022-09-13 17:47:11,022 [INFO] MainUpdater:280 - Updater Check For Update Now.
+2022-09-13 17:47:11,022 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.60
+2022-09-13 17:47:11,840 [INFO] ServerAccessManage:474 - Download File updaters.zip
+2022-09-13 17:47:11,900 [INFO] FileExtend:239 - Unzip File : updaters.zip
+2022-09-13 17:47:11,900 [INFO] FileExtend:254 - Standard Zip Deflate
+2022-09-13 17:47:12,362 [WARN] MainUpdater:1184 - Updater busy. Cannot search thirdparties
+2022-09-13 17:47:12,362 [INFO] ThirdPartyUpdaterWithRetryManager:96 - Updater plugin is busy. [1/15]
+2022-09-13 17:47:12,754 [INFO] ServerAccessManage:474 - Download File PacksControlFlags.xml
+2022-09-13 17:47:12,983 [INFO] ServerAccessManage:474 - Download File cubemx.pidx
+2022-09-13 17:47:13,043 [INFO] LoadServerUpdatesThread:367 - End of LoadServerUpdate Thread
+2022-09-13 17:47:13,076 [WARN] CheckServerUpdateThread:148 - Open CheckUpdateFile Fail
+2022-09-13 17:47:13,196 [INFO] CheckServerUpdateThread:119 - End of CheckServer Thread
+2022-09-13 17:47:13,289 [INFO] MainUpdater:2768 - connection check result : 10
+2022-09-13 17:47:15,406 [INFO] ThirdParty:929 - Integrity check success = true
+2022-09-13 17:47:15,406 [INFO] IntegrityCheckThread:98 - exiting critical section [integrity check]
+2022-09-13 17:47:15,406 [INFO] IntegrityCheckThread:101 - End integrity checks thread
+2022-09-13 17:47:35,021 [INFO] FinderAction:73 - Refresh Data: download all technical documents
+2022-09-13 17:47:35,084 [INFO] ApiDb:576 - Connected to CubeFinder SQLite database (C:\Users\AxiDo\.stmcufinder\plugins\mcufinder\mcu\cube-finder-db.db)
+2022-09-13 17:47:35,109 [INFO] ApiDb:663 - CubeFinder database Data Model version=2.1
+2022-09-13 17:47:35,110 [INFO] ApiDb:664 - CubeFinder database Configuration version=3.0.32
+2022-09-13 17:47:35,110 [INFO] ApiDb:665 - CubeFinder database generation date=2022-06-13 (1655129059)
+2022-09-13 17:47:35,110 [INFO] ApiDb:666 - CubeFinder database FW Pack versions=[STM32Cube_FW_C0_V1.0.0, STM32Cube_FW_F4_V1.27.0, STM32Cube_FW_F7_V1.17.0, STM32Cube_FW_G0_V1.6.0, STM32Cube_FW_G4_V1.5.0, STM32Cube_FW_H7_V1.10.0, STM32Cube_FW_L5_V1.4.0, STM32Cube_FW_U5_V1.1.1, STM32Cube_FW_WB_V1.14.0, STM32Cube_FW_WL_V1.2.0, X-CUBE-ALGOBUILD_V1.3.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.0.0, X-CUBE-AZRTOS-F7_V1.0.0, X-CUBE-AZRTOS-G0_V1.0.0, X-CUBE-AZRTOS-G4_V1.0.0, X-CUBE-AZRTOS-H7_V2.1.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L5_V1.0.0, X-CUBE-AZRTOS-WL_V1.0.0, X-CUBE-BLE1_V6.2.3, X-CUBE-BLE2_V3.3.0, X-CUBE-EEPRMA1_V3.1.1, X-CUBE-GNSS1_V6.0.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-NFC4_V2.0.3, X-CUBE-NFC7_V1.0.0, X-CUBE-SFXS2LP1_V3.1.0, X-CUBE-SUBG2_V5.0.0]
+2022-09-13 17:47:36,443 [INFO] ApiDb:239 - Found 138 in-development CPN: [B-WB1M-WPAN1, NUCLEO-C031C6, STEVAL-STWINBX1, STM320518-EVAL, STM32C0116-DK, STM32C011D6Y3TR, STM32C011D6Y6TR, STM32C011F4P3, STM32C011F4P6, STM32C011F4U3, STM32C011F4U6TR, STM32C011F6P3, STM32C011F6P6, STM32C011F6U3, STM32C011F6U6TR, STM32C011J4M3, STM32C011J4M6, STM32C011J6M3, STM32C011J6M6, STM32C0316-DK, STM32C031C4T3, STM32C031C4T6, STM32C031C4U3, STM32C031C4U6, STM32C031C6T3, STM32C031C6T6, STM32C031C6U3, STM32C031C6U6, STM32C031F4P3, STM32C031F4P6, STM32C031F6P3, STM32C031F6P6, STM32C031G4U3, STM32C031G4U6, STM32C031G6U3, STM32C031G6U6, STM32C031K4T3, STM32C031K4T6, STM32C031K4U3, STM32C031K4U6, STM32C031K6T3, STM32C031K6T6, STM32C031K6U3, STM32C031K6U6, STM32G071K8TXN, STM32G071K8UXN, STM32G081GBU6N, STM32G081KBT6N, STM32G081KBUXN, STM32G0B1CCT6N, STM32G0B1KCT6, STM32G0B1NEY6TR, STM32G0B1RCT6N, STM32G0C1CCT6, STM32G0C1CCT6N, STM32G0C1CCU6N, STM32G0C1CET6N, STM32G0C1CEU6N, STM32G0C1KCT6, STM32G0C1NEY6TR, STM32G0C1RCI6N, STM32G0C1RCT6N, STM32G0C1REI6N, STM32G0C1RET6N, STM32G0C1VCI6, STM32G0C1VEI6, STM32G471CCT6, STM32G471CCU6, STM32G471CET3, STM32G471CET6, STM32G471CEU3, STM32G471CEU6, STM32G471MCT6, STM32G471MET3, STM32G471MET6, STM32G471MEY6TR, STM32G471QCT6, STM32G471QET3, STM32G471RCT6, STM32G471RET3, STM32G471RET6, STM32G471VCH6, STM32G471VCI6, STM32G471VCT6, STM32G471VEH3, STM32G471VEH6, STM32G471VEI3, STM32G471VEI6, STM32G471VET3, STM32G471VET6, STM32G474CCT6, STM32L476VGY6PTR, STM32L4R5QGI6STR, STM32MP131AAE3, STM32MP131AAF3, STM32MP131AAG3, STM32MP131CAE3, STM32MP131CAF3, STM32MP131CAG3, STM32MP131DAE7, STM32MP131DAF7, STM32MP131DAG7, STM32MP131FAE7, STM32MP131FAF7, STM32MP131FAG7, STM32MP133AAE3, STM32MP133AAF3, STM32MP133AAG3, STM32MP133CAE3, STM32MP133CAF3, STM32MP133CAG3, STM32MP133DAE7, STM32MP133DAF7, STM32MP133DAG7, STM32MP133FAE7, STM32MP133FAF7, STM32MP133FAG7, STM32MP135AAE3, STM32MP135AAF3, STM32MP135AAG3, STM32MP135CAE3, STM32MP135CAF3, STM32MP135CAG3, STM32MP135DAE7, STM32MP135DAF7, STM32MP135DAG7, STM32MP135F-DK, STM32MP135FAE7, STM32MP135FAF7, STM32MP135FAG7, STM32U595ZJT6Q, STM32U599BJY6QTR, STM32U599NIH6Q, STM32U599NJH6Q, STM32U5A5ZJT6Q, STM32U5A9BJY6QTR, STM32U5A9NJH6Q, STM32WB1MMCH6]
+2022-09-13 17:47:36,448 [INFO] DbMcus:215 - Found 3542 MCUs, 3542 are supported
+2022-09-13 17:47:36,449 [INFO] ApiDb:409 - User favorites file not found: C:\Users\AxiDo/.stm32cubeide/favorites.mcus.txt
+2022-09-13 17:47:36,449 [INFO] DbMcus:221 - Set 0 / 0 favorites MCUs
+2022-09-13 17:47:41,554 [INFO] ApiDb:663 - CubeFinder database Data Model version=2.1
+2022-09-13 17:47:41,554 [INFO] ApiDb:664 - CubeFinder database Configuration version=3.0.32
+2022-09-13 17:47:41,554 [INFO] ApiDb:665 - CubeFinder database generation date=2022-06-13 (1655129059)
+2022-09-13 17:47:41,554 [INFO] ApiDb:666 - CubeFinder database FW Pack versions=[STM32Cube_FW_C0_V1.0.0, STM32Cube_FW_F4_V1.27.0, STM32Cube_FW_F7_V1.17.0, STM32Cube_FW_G0_V1.6.0, STM32Cube_FW_G4_V1.5.0, STM32Cube_FW_H7_V1.10.0, STM32Cube_FW_L5_V1.4.0, STM32Cube_FW_U5_V1.1.1, STM32Cube_FW_WB_V1.14.0, STM32Cube_FW_WL_V1.2.0, X-CUBE-ALGOBUILD_V1.3.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.0.0, X-CUBE-AZRTOS-F7_V1.0.0, X-CUBE-AZRTOS-G0_V1.0.0, X-CUBE-AZRTOS-G4_V1.0.0, X-CUBE-AZRTOS-H7_V2.1.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L5_V1.0.0, X-CUBE-AZRTOS-WL_V1.0.0, X-CUBE-BLE1_V6.2.3, X-CUBE-BLE2_V3.3.0, X-CUBE-EEPRMA1_V3.1.1, X-CUBE-GNSS1_V6.0.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-NFC4_V2.0.3, X-CUBE-NFC7_V1.0.0, X-CUBE-SFXS2LP1_V3.1.0, X-CUBE-SUBG2_V5.0.0]
+2022-09-13 17:47:41,603 [INFO] DbBoardsSqlite:227 - include board P-NUCLEO-WB55-NUCLEO as a kit item of type 'Nucleo-64'
+2022-09-13 17:47:41,604 [INFO] DbBoardsSqlite:227 - include board P-NUCLEO-WB55-USBDONGLE as a kit item of type 'Nucleo USB Dongle'
+2022-09-13 17:47:41,605 [INFO] DbBoardsSqlite:227 - include board STEVAL-IDP005V1 as a kit item of type 'Evaluation Board'
+2022-09-13 17:47:41,605 [INFO] DbBoardsSqlite:227 - include board STEVAL-IDP005V2 as a kit item of type 'Evaluation Board'
+2022-09-13 17:47:41,616 [INFO] ApiDb:239 - Found 138 in-development CPN: [B-WB1M-WPAN1, NUCLEO-C031C6, STEVAL-STWINBX1, STM320518-EVAL, STM32C0116-DK, STM32C011D6Y3TR, STM32C011D6Y6TR, STM32C011F4P3, STM32C011F4P6, STM32C011F4U3, STM32C011F4U6TR, STM32C011F6P3, STM32C011F6P6, STM32C011F6U3, STM32C011F6U6TR, STM32C011J4M3, STM32C011J4M6, STM32C011J6M3, STM32C011J6M6, STM32C0316-DK, STM32C031C4T3, STM32C031C4T6, STM32C031C4U3, STM32C031C4U6, STM32C031C6T3, STM32C031C6T6, STM32C031C6U3, STM32C031C6U6, STM32C031F4P3, STM32C031F4P6, STM32C031F6P3, STM32C031F6P6, STM32C031G4U3, STM32C031G4U6, STM32C031G6U3, STM32C031G6U6, STM32C031K4T3, STM32C031K4T6, STM32C031K4U3, STM32C031K4U6, STM32C031K6T3, STM32C031K6T6, STM32C031K6U3, STM32C031K6U6, STM32G071K8TXN, STM32G071K8UXN, STM32G081GBU6N, STM32G081KBT6N, STM32G081KBUXN, STM32G0B1CCT6N, STM32G0B1KCT6, STM32G0B1NEY6TR, STM32G0B1RCT6N, STM32G0C1CCT6, STM32G0C1CCT6N, STM32G0C1CCU6N, STM32G0C1CET6N, STM32G0C1CEU6N, STM32G0C1KCT6, STM32G0C1NEY6TR, STM32G0C1RCI6N, STM32G0C1RCT6N, STM32G0C1REI6N, STM32G0C1RET6N, STM32G0C1VCI6, STM32G0C1VEI6, STM32G471CCT6, STM32G471CCU6, STM32G471CET3, STM32G471CET6, STM32G471CEU3, STM32G471CEU6, STM32G471MCT6, STM32G471MET3, STM32G471MET6, STM32G471MEY6TR, STM32G471QCT6, STM32G471QET3, STM32G471RCT6, STM32G471RET3, STM32G471RET6, STM32G471VCH6, STM32G471VCI6, STM32G471VCT6, STM32G471VEH3, STM32G471VEH6, STM32G471VEI3, STM32G471VEI6, STM32G471VET3, STM32G471VET6, STM32G474CCT6, STM32L476VGY6PTR, STM32L4R5QGI6STR, STM32MP131AAE3, STM32MP131AAF3, STM32MP131AAG3, STM32MP131CAE3, STM32MP131CAF3, STM32MP131CAG3, STM32MP131DAE7, STM32MP131DAF7, STM32MP131DAG7, STM32MP131FAE7, STM32MP131FAF7, STM32MP131FAG7, STM32MP133AAE3, STM32MP133AAF3, STM32MP133AAG3, STM32MP133CAE3, STM32MP133CAF3, STM32MP133CAG3, STM32MP133DAE7, STM32MP133DAF7, STM32MP133DAG7, STM32MP133FAE7, STM32MP133FAF7, STM32MP133FAG7, STM32MP135AAE3, STM32MP135AAF3, STM32MP135AAG3, STM32MP135CAE3, STM32MP135CAF3, STM32MP135CAG3, STM32MP135DAE7, STM32MP135DAF7, STM32MP135DAG7, STM32MP135F-DK, STM32MP135FAE7, STM32MP135FAF7, STM32MP135FAG7, STM32U595ZJT6Q, STM32U599BJY6QTR, STM32U599NIH6Q, STM32U599NJH6Q, STM32U5A5ZJT6Q, STM32U5A9BJY6QTR, STM32U5A9NJH6Q, STM32WB1MMCH6]
+2022-09-13 17:47:41,741 [INFO] BoardInfo:879 - No configuration file found for board P-NUCLEO-WB55
+2022-09-13 17:47:41,741 [INFO] DbBoards:156 - Kit is not supported: P-NUCLEO-WB55
+2022-09-13 17:47:41,745 [INFO] BoardInfo:879 - No configuration file found for board STEVAL-BFA001V1B
+2022-09-13 17:47:41,745 [INFO] DbBoards:156 - Kit is not supported: STEVAL-BFA001V1B
+2022-09-13 17:47:41,746 [INFO] BoardInfo:879 - No configuration file found for board STEVAL-BFA001V2B
+2022-09-13 17:47:41,746 [INFO] DbBoards:156 - Kit is not supported: STEVAL-BFA001V2B
+2022-09-13 17:47:41,861 [INFO] DbBoards:160 - Found 176 boards, 173 are supported
+2022-09-13 17:47:41,867 [INFO] ApiDb:409 - User favorites file not found: C:\Users\AxiDo/.stm32cubeide/favorites.boards.txt
+2022-09-13 17:47:41,867 [INFO] DbBoards:189 - Set 0 / 0 favorites Boards
+2022-09-13 17:47:41,997 [INFO] WebUtils:927 - prepare download of 1112 documents
+2022-09-13 17:47:42,188 [INFO] ServerAccessManage:474 - Download File AN1181.pdf
+2022-09-13 17:47:42,256 [INFO] ServerAccessManage:474 - Download File AN1709.pdf
+2022-09-13 17:47:42,386 [INFO] ServerAccessManage:474 - Download File AN2548.pdf
+2022-09-13 17:47:42,467 [INFO] ServerAccessManage:474 - Download File AN2586.pdf
+2022-09-13 17:47:42,561 [INFO] ServerAccessManage:474 - Download File AN2604.pdf
+2022-09-13 17:47:42,622 [INFO] ServerAccessManage:474 - Download File AN2606.pdf
+2022-09-13 17:47:43,257 [INFO] ServerAccessManage:474 - Download File AN2639.pdf
+2022-09-13 17:47:43,346 [INFO] ServerAccessManage:474 - Download File AN2799.pdf
+2022-09-13 17:47:43,435 [INFO] ServerAccessManage:474 - Download File AN2834.pdf
+2022-09-13 17:47:43,729 [INFO] ServerAccessManage:474 - Download File AN2867.pdf
+2022-09-13 17:47:44,081 [INFO] ServerAccessManage:474 - Download File AN2945.pdf
+2022-09-13 17:47:44,178 [INFO] ServerAccessManage:474 - Download File AN2946.pdf
+2022-09-13 17:47:44,374 [INFO] ServerAccessManage:474 - Download File AN3070.pdf
+2022-09-13 17:47:44,457 [INFO] ServerAccessManage:474 - Download File AN3095.pdf
+2022-09-13 17:47:44,886 [INFO] ServerAccessManage:474 - Download File AN3108.pdf
+2022-09-13 17:47:45,058 [INFO] ServerAccessManage:474 - Download File AN3126.pdf
+2022-09-13 17:47:45,210 [INFO] ServerAccessManage:474 - Download File AN3128.pdf
+2022-09-13 17:47:45,681 [INFO] ServerAccessManage:474 - Download File AN3154.pdf
+2022-09-13 17:47:45,839 [INFO] ServerAccessManage:474 - Download File AN3155.pdf
+2022-09-13 17:47:46,094 [INFO] ServerAccessManage:474 - Download File AN3156.pdf
+2022-09-13 17:47:46,212 [INFO] ServerAccessManage:474 - Download File AN3165.pdf
+2022-09-13 17:47:46,379 [INFO] ServerAccessManage:474 - Download File AN3193.pdf
+2022-09-13 17:47:46,464 [INFO] ServerAccessManage:474 - Download File AN3216.pdf
+2022-09-13 17:47:46,592 [INFO] ServerAccessManage:474 - Download File AN3236.pdf
+2022-09-13 17:47:46,693 [INFO] ServerAccessManage:474 - Download File AN3248.pdf
+2022-09-13 17:47:46,785 [INFO] ServerAccessManage:474 - Download File AN3311.pdf
+2022-09-13 17:47:47,119 [INFO] ServerAccessManage:474 - Download File AN3320.pdf
+2022-09-13 17:47:47,227 [INFO] ServerAccessManage:474 - Download File AN3322.pdf
+2022-09-13 17:47:47,424 [INFO] ServerAccessManage:474 - Download File AN3364.pdf
+2022-09-13 17:47:47,507 [INFO] ServerAccessManage:474 - Download File AN3371.pdf
+2022-09-13 17:47:47,627 [INFO] ServerAccessManage:474 - Download File AN3422.pdf
+2022-09-13 17:47:47,717 [INFO] ServerAccessManage:474 - Download File AN3427.pdf
+2022-09-13 17:47:47,822 [INFO] ServerAccessManage:474 - Download File AN3429.pdf
+2022-09-13 17:47:48,086 [INFO] ServerAccessManage:474 - Download File AN3960.pdf
+2022-09-13 17:47:48,241 [INFO] ServerAccessManage:474 - Download File AN3961.pdf
+2022-09-13 17:47:48,512 [INFO] ServerAccessManage:474 - Download File AN3972.pdf
+2022-09-13 17:47:51,724 [INFO] ServerAccessManage:474 - Download File AN3997.pdf
+2022-09-13 17:47:51,807 [INFO] ServerAccessManage:474 - Download File AN3998.pdf
+2022-09-13 17:47:51,883 [INFO] ServerAccessManage:474 - Download File AN4013.pdf
+2022-09-13 17:47:52,025 [INFO] ServerAccessManage:474 - Download File AN4031.pdf
+2022-09-13 17:47:52,264 [INFO] ServerAccessManage:474 - Download File AN4041.pdf
+2022-09-13 17:47:52,461 [INFO] ServerAccessManage:474 - Download File AN4045.pdf
+2022-09-13 17:47:52,570 [INFO] ServerAccessManage:474 - Download File AN4068.pdf
+2022-09-13 17:47:53,204 [INFO] ServerAccessManage:474 - Download File AN4070.pdf
+2022-09-13 17:47:53,699 [INFO] ServerAccessManage:474 - Download File AN4073.pdf
+2022-09-13 17:47:53,814 [INFO] ServerAccessManage:474 - Download File AN4076.pdf
+2022-09-13 17:47:53,986 [INFO] ServerAccessManage:474 - Download File AN4080.pdf
+2022-09-13 17:47:54,111 [INFO] ServerAccessManage:474 - Download File AN4088.pdf
+2022-09-13 17:47:54,315 [INFO] ServerAccessManage:474 - Download File AN4099.pdf
+2022-09-13 17:47:54,465 [INFO] ServerAccessManage:474 - Download File AN4112.pdf
+2022-09-13 17:47:54,557 [INFO] ServerAccessManage:474 - Download File AN4117.pdf
+2022-09-13 17:47:54,838 [INFO] ServerAccessManage:474 - Download File AN4195.pdf
+2022-09-13 17:47:55,071 [INFO] ServerAccessManage:474 - Download File AN4206.pdf
+2022-09-13 17:47:55,238 [INFO] ServerAccessManage:474 - Download File AN4207.pdf
+2022-09-13 17:47:55,357 [INFO] ServerAccessManage:474 - Download File AN4221.pdf
+2022-09-13 17:47:55,517 [INFO] ServerAccessManage:474 - Download File AN4227.pdf
+2022-09-13 17:47:55,743 [INFO] ServerAccessManage:474 - Download File AN4228.pdf
+2022-09-13 17:47:55,890 [INFO] ServerAccessManage:474 - Download File AN4229.pdf
+2022-09-13 17:47:56,019 [INFO] ServerAccessManage:474 - Download File AN4230.pdf
+2022-09-13 17:47:56,191 [INFO] ServerAccessManage:474 - Download File AN4232.pdf
+2022-09-13 17:47:56,323 [INFO] ServerAccessManage:474 - Download File AN4246.pdf
+2022-09-13 17:47:56,423 [INFO] ServerAccessManage:474 - Download File AN4277.pdf
+2022-09-13 17:47:56,699 [INFO] ServerAccessManage:474 - Download File AN4286.pdf
+2022-09-13 17:47:56,860 [INFO] ServerAccessManage:474 - Download File AN4296.pdf
+2022-09-13 17:47:57,037 [INFO] ServerAccessManage:474 - Download File AN4299.pdf
+2022-09-13 17:47:57,234 [INFO] ServerAccessManage:474 - Download File AN4310.pdf
+2022-09-13 17:47:57,662 [INFO] ServerAccessManage:474 - Download File AN4312.pdf
+2022-09-13 17:47:57,914 [INFO] ServerAccessManage:474 - Download File AN4316.pdf
+2022-09-13 17:47:58,131 [INFO] ServerAccessManage:474 - Download File AN4325.pdf
+2022-09-13 17:47:58,248 [INFO] ServerAccessManage:474 - Download File AN4395.pdf
+2022-09-13 17:47:58,527 [INFO] ServerAccessManage:474 - Download File AN4444.pdf
+2022-09-13 17:47:58,919 [INFO] ServerAccessManage:474 - Download File AN4445.pdf
+2022-09-13 17:48:01,127 [INFO] ServerAccessManage:474 - Download File AN4467.pdf
+2022-09-13 17:48:01,291 [INFO] ServerAccessManage:474 - Download File AN4488.pdf
+2022-09-13 17:48:01,464 [INFO] ServerAccessManage:474 - Download File AN4538.pdf
+2022-09-13 17:48:12,763 [INFO] MainUpdater:2768 - connection check result : 10
+2022-09-13 17:48:12,763 [INFO] MainUpdater:656 - Updater currently busy
+2022-09-13 17:48:14,235 [INFO] ServerAccessManage:474 - Download File AN4539.pdf
+2022-09-13 17:48:23,881 [INFO] FinderAction:82 - Refresh all docs is successful
+2022-09-13 17:48:46,299 [INFO] Activator:177 - 
+
+
+2022-09-13 17:48:46,300 [INFO] Activator:178 - !SESSION log4j initialized
+2022-09-13 17:48:48,471 [ERROR] ConfigurationRetriever:139 - IOException on connection: Remote host terminated the handshake
+2022-09-13 17:48:48,476 [ERROR] ConfigurationRetriever:139 - IOException on connection: Remote host terminated the handshake
+2022-09-13 17:48:48,481 [ERROR] ConfigurationRetriever:139 - IOException on connection: Remote host terminated the handshake
+2022-09-13 17:49:09,339 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-09-13 17:49:09,340 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-09-13 17:49:09,341 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-09-13 17:49:27,079 [ERROR] ConfigurationRetriever:139 - IOException on connection: Remote host terminated the handshake
+2022-09-13 17:49:27,082 [ERROR] ConfigurationRetriever:139 - IOException on connection: Remote host terminated the handshake
+2022-09-13 17:49:27,085 [ERROR] ConfigurationRetriever:139 - IOException on connection: Remote host terminated the handshake
+2022-09-27 17:24:25,537 [INFO] Activator:177 - 
+
+
+2022-09-27 17:24:25,538 [INFO] Activator:178 - !SESSION log4j initialized
+2022-09-27 17:24:33,052 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-09-27 17:24:33,053 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-09-27 17:24:33,055 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
